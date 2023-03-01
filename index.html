@@ -25,6 +25,285 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://lee-perry.co.uk/2023/03/01/day-of-the.html" class="u-url"><time class="dt-published" datetime="2023-03-01 20:59:36 &#43;0000">Mar 1, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Day [3/100] of the <a href="https://micro.blog/talkpython@fosstodon.org">@talkpython@fosstodon.org</a> TalkPython 100 days of web series.</p>
+<p>Setting up a scaffold flask application in replit, ready to build fire safety calculators into later.</p>
+<p>Run Application <a href="https://replit.com/@lee-perry/Fire-Calculator-Flask-App?v=1">Here &gt;</a>
+100 Days of Web | <a href="https://lee-perry.co.uk/search-space/?q=100+Days+of+Web+%7C">More &gt;</a><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/01/march-photoblogging-challenge.html" class="u-url"><time class="dt-published" datetime="2023-03-01 18:29:04 &#43;0000">Mar 1, 2023</time></a>
+
+		<div class="e-content">
+			 <p><a href="https://micro.blog/challenges">March Photoblogging Challenge</a> Day 01 - Theme: Secure</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2023/02/28/ride-dnia-to.html">Ride - Dénia to Sagra</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/28/ride-dnia-to.html" class="u-url"><time class="dt-published" datetime="2023-02-28 21:56:56 &#43;0000">Feb 28, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Todays ride took in the 20 km <em>Dénia to Sagra</em> route by Toumy Degham on <a href="https://lee-perry.co.uk/categories/kinomap">Kinomap</a>. 🚲</p>
+<p>This ride is a typical Spanish ride from costa to campo.  The views are dominated by the green hills on the horizon, and the various fincas that you pass.  Despite the start along the beach, you barely see it.</p>
+<p>The first third of the ride is flat, climbing slowly thereafter to the village of Sagra, nothing too steep, very rideable, and generally well matched to the video with little pulsing.</p>
+<p>Good video, excellent clarity in picture, good scenery, and a good length for a lunchtime TT or FTP test.  I&rsquo;ve given 4/5.  Nice ride, but not blown away - maybe I&rsquo;ve been spoiled this week.</p>
+<h2 id="data">Data</h2>
+<p>Creator: Toumy Degham  | <a href="https://lee-perry.co.uk/search-space/?q=Toumy+Degham+%7C">More &gt;</a><!-- raw HTML omitted -->
+Country: Spain | <a href="https://lee-perry.co.uk/search-space/?q=Spain+%7C">More &gt;</a><!-- raw HTML omitted -->
+Length: Medium | <a href="https://lee-perry.co.uk/search-space/?q=Medium+%7C">More &gt;</a><!-- raw HTML omitted -->
+Profile: Rolling | <a href="https://lee-perry.co.uk/search-space/?q=Rolling+%7C">More &gt;</a><!-- raw HTML omitted -->
+My Rating: ⭐⭐⭐⭐ | <a href="https://lee-perry.co.uk/search-space/?q=%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90+%7C">More &gt;</a><!-- raw HTML omitted --></p>
+<h2 id="my-times">My Times</h2>
+<p><a href="https://dashboard.kinomap.com/en/activities/8761425">00:41:12</a> - 28/02/2023 - 172W - 148bpm</p>
+<h2 id="video">Video</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2023/02/28/setting-up-a.html">Setting up a basic Flask project</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/28/setting-up-a.html" class="u-url"><time class="dt-published" datetime="2023-02-28 21:19:23 &#43;0000">Feb 28, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Workflow and templates follow for a small, routed, multi-page flask app.</p>
+<pre tabindex="0"><code>mkdir flask_demo
+cd flask_demo
+python -m venv venv
+source venv/bin/activate
+pip install flask
+-m pip install --upgrade pip
+pip list
+
+Package            		Version
+-------------------------------------
+click				8.1.3
+Flask 				2.2.3
+importlib-metadata  		6.0.0
+itsdangerous             	2.1.2
+Jinja2                         	3.1.2
+MarkupSafe              	2.1.2
+pip                            	23.0.1
+setuptools               	49.2.1
+Werkzeug                  	2.2.3
+zipp                           	3.15.0
+
+</code></pre><pre tabindex="0"><code>touch demo.py
+
+</code></pre><h2 id="demopy">demo.py</h2>
+<pre tabindex="0"><code>from program import app
+
+</code></pre><pre tabindex="0"><code>mkdir program
+cd program
+subl __init__.py
+
+</code></pre><h2 id="__-init-__py">__ init __.py</h2>
+<pre tabindex="0"><code>from flask import Flask
+
+app = Flask(__name__)
+
+from program import routes
+</code></pre><pre tabindex="0"><code>subl routes.py
+</code></pre><h2 id="routespy">routes.py</h2>
+<pre tabindex="0"><code>from program import app
+from flask import render_template
+
+[@app](https://micro.blog/app)('/')
+[@app](https://micro.blog/app)('/index')
+
+def index():
+	return render_template('index.html')
+
+[@app](https://micro.blog/app)('/100Days')
+def p100Days():
+	return render_template('100Days.html')
+</code></pre><pre tabindex="0"><code>mkdir templates
+cd templates
+subl base.html
+</code></pre><h2 id="basehtml">base.html</h2>
+<pre tabindex="0"><code>&lt;html&gt;
+    &lt;head&gt;
+      &lt;meta charset=&quot;utf-8&quot;&gt;
+      &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+      &lt;!-- load MUI --&gt;
+      &lt;link href=&quot;//cdn.muicss.com/mui-0.9.39/css/mui.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+      &lt;script src=&quot;//cdn.muicss.com/mui-0.9.39/js/mui.min.js&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&quot;mui-panel&quot;&gt;Menu Bar - 
+            &lt;button class=&quot;mui-btn mui-btn--raised&quot;&gt;&lt;a href=&quot;/index&quot;&gt;Home&lt;/a&gt;&lt;/button&gt;
+            &lt;button class=&quot;mui-btn mui-btn--raised&quot;&gt;&lt;a href=&quot;/100Days&quot;&gt;100 Days&lt;/a&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;hr&gt;
+        {% block content %}{% endblock %}
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><pre tabindex="0"><code>subl index.html
+
+</code></pre><h2 id="indexhtml">index.html</h2>
+<pre tabindex="0"><code>{% extends &quot;base.html&quot; %}
+
+{% block content%}
+		&lt;h1&gt;Hello!&lt;/h1&gt;
+		&lt;p&gt;This is the text we've included in our HTML files&lt;/p&gt;
+
+{% endblock%}
+</code></pre><pre tabindex="0"><code>subl 100days.html
+cd ..
+cd ..
+flask run
+
+</code></pre><pre tabindex="0"><code>pip install python-dotenv
+subl .flaskenv
+env | grep FLASK_APP
+flask run
+
+</code></pre>
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/28/day-two-of.html" class="u-url"><time class="dt-published" datetime="2023-02-28 08:30:12 &#43;0000">Feb 28, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Day two of the <a href="https://micro.blog/talkpython@fosstodon.org">@talkpython@fosstodon.org</a> TalkPython 100 days of web series, setting up template rendering in Flask with additional routing and mui css. [2/100]</p>
+<p>100 Days of Web | <a href="https://lee-perry.co.uk/search-space/?q=100+Days+of+Web+%7C">More &gt;</a><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2023/02/27/ride-san-vittoreroveredocarasole.html">Ride - San Vittore-Roveredo-Carasole</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/27/ride-san-vittoreroveredocarasole.html" class="u-url"><time class="dt-published" datetime="2023-02-27 21:19:10 &#43;0000">Feb 27, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Todays ride took in the 12 km <em>San Vittore Roveredo Carasole</em> route by SilvanoTurati on <a href="https://lee-perry.co.uk/categories/kinomap">Kinomap</a>. 🚲</p>
+<p>I don&rsquo;t really have words for the scenery, its just phenomenal.  Deep blue skies, lush green valleys, tall surrounding peaks with the river Moësa for company in parts.  This ride really is something else.</p>
+<p>The first 10km of the ride are largely flat, rolling through a couple of climbs as the ride makes its way from San Vittore and through Roveredo.  After the detour through Roveredo the ride drops back to the river, before almost 2km of climb at 10% to the Chiesa San Rocco in the village of Carasole.</p>
+<p>The gradient profile is very rideable, it doesn&rsquo;t match the video exactly - but thankfully is not as terraced as my last ride.  For a perfectly matched gradient profile, you do really need to ride on Fulgaz.</p>
+<p>Superb smooth video, excellent clarity in picture, great scenery, and a good length for a lunchtime TT or FTP test.  I&rsquo;ve given 5/5 - one of the best rides I have done on Kinomap.</p>
+<h2 id="data">Data</h2>
+<p>Creator: SilvanoTurati  | <a href="https://lee-perry.co.uk/search-space/?q=SilvanoTurati+%7C">More &gt;</a><!-- raw HTML omitted -->
+Country: Switzerland | <a href="https://lee-perry.co.uk/search-space/?q=Switzerland+%7C">More &gt;</a><!-- raw HTML omitted -->
+Length: Short | <a href="https://lee-perry.co.uk/search-space/?q=Short+%7C">More &gt;</a><!-- raw HTML omitted -->
+Profile: Climb | <a href="https://lee-perry.co.uk/search-space/?q=Climb+%7C">More &gt;</a><!-- raw HTML omitted -->
+My Rating: ⭐⭐⭐⭐⭐ | <a href="https://lee-perry.co.uk/search-space/?q=%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90+%7C">More &gt;</a><!-- raw HTML omitted --></p>
+<h2 id="my-times">My Times</h2>
+<p><a href="https://dashboard.kinomap.com/en/activities/8752325">00:33:03</a> - 27/02/2023 - 201W - 157bpm</p>
+<h2 id="video">Video</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/27/kicking-off-the.html" class="u-url"><time class="dt-published" datetime="2023-02-27 08:30:32 &#43;0000">Feb 27, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Kicking off the <a href="https://micro.blog/talkpython@fosstodon.org">@talkpython@fosstodon.org</a> TalkPython 100 days of web series, by setting op venv and flask, and getting a very basic site up and running on local host. [1/100]</p>
+<p>100 Days of Web | <a href="https://lee-perry.co.uk/search-space/?q=100+Days+of+Web+%7C">More &gt;</a><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/26/taken-a-boatload.html" class="u-url"><time class="dt-published" datetime="2023-02-26 17:33:21 &#43;0000">Feb 26, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Taken a boatload of drugs, and two first half goals from MNU for wee Fearghus to feel on the mend.</p>
+<p>📷🐕⚽️</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2023/02/26/ride-maryborough-reservoir.html">Ride - Maryborough 3 Reservoir Loop - Part 1</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/26/ride-maryborough-reservoir.html" class="u-url"><time class="dt-published" datetime="2023-02-26 11:07:50 &#43;0000">Feb 26, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Todays ride took in the 24 km <em>Maryborough 3 Reservoir Loop - Part 1</em> route by RobbieRensenbrink on <a href="https://lee-perry.co.uk/categories/kinomap">Kinomap</a>. 🚲</p>
+<p>The scenery is a beautiful mix of yellow grain and blue sky, interspersed with occasion herds of cattle.  There is also a lovely scan of Maryborough&rsquo;s sandstone train station right at the very beginning of the ride.</p>
+<p>The profile is rolling with 200m of climb.  Depending on the power you put down, this route should take you around 45 minutes.  The gradient profile is definitely out of sync in places.  I suspect that this is the first ride I have done where have noticed the more frequent gradient changes in Kinomap.  However, this results in a bizarre sequence of steps and plateaus that does not really reflect the video.  I know that you cannot pleas eall of the people all of the time, but I think I prefer either the hyper smoothed approach that you usually get on Kinomap or the constantly changing gradient of Fulgaz.  I&rsquo;m not sure I like this middle ground compromise very much.</p>
+<p>The video is superb, great scenery, smooth though filmed from a faster vehicle, and a good length for a lunchtime TT or FTP test.  I&rsquo;ve given 4/5 - it would have been 5/5 but for the slightly weird gradient profile.</p>
+<h2 id="data">Data</h2>
+<p>Creator: RobbieRensenbrink | <a href="https://lee-perry.co.uk/search-space/?q=RobbieRensenbrink+%7C">More &gt;</a><!-- raw HTML omitted -->
+Country: Australia | <a href="https://lee-perry.co.uk/search-space/?q=Australia+%7C">More &gt;</a><!-- raw HTML omitted -->
+Length: Medium | <a href="https://lee-perry.co.uk/search-space/?q=Medium+%7C">More &gt;</a><!-- raw HTML omitted -->
+Profile: Rolling | <a href="https://lee-perry.co.uk/search-space/?q=Rolling+%7C">More &gt;</a><!-- raw HTML omitted -->
+My Rating: ⭐⭐⭐⭐ | <a href="https://lee-perry.co.uk/search-space/?q=%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90+%7C">More &gt;</a><!-- raw HTML omitted --></p>
+<h2 id="my-times">My Times</h2>
+<p>00:46:53 - 26/02/2023 - 173W - 155bpm</p>
+<h2 id="video">Video</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/25/took-caoimhe-and.html" class="u-url"><time class="dt-published" datetime="2023-02-25 17:01:24 &#43;0000">Feb 25, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Took Caoimhe and Leo to see Turf Moor this afternoon. Burnley we’re hosting Huddersfield, though not very generously. 4-0.</p>
+<p>📷🐕⚽️</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/02/25/does-anybody-think.html" class="u-url"><time class="dt-published" datetime="2023-02-25 12:59:38 &#43;0000">Feb 25, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Does anybody think Stevie Nicks might be a little tired?</p>
+<p>📷🐕</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://lee-perry.co.uk/2023/02/24/two-ginger-demons.html" class="u-url"><time class="dt-published" datetime="2023-02-24 18:41:07 &#43;0000">Feb 24, 2023</time></a>
 
 		<div class="e-content">

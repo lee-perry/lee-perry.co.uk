@@ -24,6 +24,209 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://lee-perry.co.uk/2023/03/25/trying-out-rouvy.html">Trying out Rouvy on a Chromebook</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/25/trying-out-rouvy.html" class="u-url"><time class="dt-published" datetime="2023-03-25 08:31:14 &#43;0000">Mar 25, 2023</time></a>
+
+		<div class="e-content">
+			 <p>The combination of high quality videos and gamification would probably make Rouvy my favourite virtual cycling platform.</p>
+<p>The videos are not as strong as Fulgaz, and the interest factor not as strong as Zwift, but there has been one factor stopping me using Rouvy for about two years now - vibrating videos.   Rouvy probably has the strongest all-round combination though.</p>
+<p>Whatever platform I have used - MacOs, iPadOS, and a quick ugh, windows, shudders, attempt have all resulted in the sort of vibrating video that would quickly make me travel sick.  The other bar to entry for me was the 100% realism, which though laudible was not really workable with a very highly geared Wattbike Atom - though the subsequent introduction of virtual gearing has resolved that.</p>
+<p>I was so impressed with my wee ARM powered Chromebook that I decided to buy a properly powered one, and have been working through setting up a Chromebook as an easy optimized Linux laptop - <a href="https://lee-perry.co.uk/categories/chromebook/">project here</a>.  So I decided to put Rouvy on to see how it works on a Chromebook.</p>
+<p>I was surprised, the videos look amazing, and the AR overlay looks really good too - far better than it does on either my iMac, or MacBook Air.  All of the graphical artefacts looked far sharper too.</p>
+<p>The downside, is that all of the UI on the front pages is screwed, and the menu pages are not functioning at all.  Presumably as the screen is rendering for tablet.</p>
+<p>I&rsquo;ve not tried to ride yet, so have no idea for example how many concurrent bluetooth connections can be held, though suspect that will probably all be grand.</p>
+<p>I have completed a back to metal rebuild of my M1 Macbook Air in the last week, since replacing the screen  - so I&rsquo;ll try Rouvy again there but expect the video vibration and dodgy graphical overlays will still persist as they do on iPad :(.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/24/fearghus-stealing-hugs.html" class="u-url"><time class="dt-published" datetime="2023-03-24 20:04:00 &#43;0000">Mar 24, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Fearghus stealing hugs from MooMin this afternoon.</p>
+<p>#dailydog #dogs #podencos #officedogs</p>
+<p>📷🐕🐕</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/23/unexpected-visit-to.html" class="u-url"><time class="dt-published" datetime="2023-03-23 18:43:33 &#43;0000">Mar 23, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Unexpected visit to Todmorden Station after a chaotic ride home on the northern railway.</p>
+<p>#trainstations</p>
+<p>🗺</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/23/waiting-for-the.html" class="u-url"><time class="dt-published" datetime="2023-03-23 07:46:50 &#43;0000">Mar 23, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Waiting for the 07:21 train into Leeds from Burnley Manchester Road this morning.</p>
+<p>I’d lived in Burnley for almost 5 years before I realised I could actually get a direct train into Leeds.</p>
+<p>📷🗺</p>
+<p>#trainstations #dailyphoto #burnley</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2023/03/22/setting-up-git.html">Setting up Git and Github for developing on a Chromebook</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/22/setting-up-git.html" class="u-url"><time class="dt-published" datetime="2023-03-22 21:58:29 &#43;0000">Mar 22, 2023</time></a>
+
+		<div class="e-content">
+			 <p>In this article I run through how to setup Git and Github ready for developing on a Chromebook. This article is the third in a series of articles about doing geeky things with <a href="https://lee-perry.co.uk/categorihttps://micro.blog/post#es/chromebook/">Chromebooks</a> - from software development to retro gaming.</p>
+<p>Setting up Git and Github ready for development are pretty simple, but amongst the most important setup tasks that you will complete on any machine.  Doing so enables you to version control your code, and to pull code from and push code back to your remote repository (in this case Github, though there are alternatives).  Really I expected there to be nuances, but in reality this workflow is identical to the process on the various Linux distributions or on MacOS.</p>
+<p>Remember from the first article in this series, the Chromebook already had Git installed when when turned on the Linux development environment.  The first thing that I will do is to configure the Git user in the terminal.</p>
+<p><code>git config --global user.name &quot;Your Name&quot;</code> <!-- raw HTML omitted -->
+<code>git config --global user.email &quot;your@email.address&quot;</code></p>
+<!-- raw HTML omitted -->
+<p>I want to be able to push code to my github repositories and pull code back, so I need to generate an ssh key.  To do that:</p>
+<p><code>ssh-keygen -t  ed25519 -C &quot;your@email.address&quot;</code></p>
+<p>I&rsquo;m happy to use the default storage location, and I do not want to use a passcode with the key, so I just click return through the next three prompts.  The key is generated, and pictographic representation printed.</p>
+<!-- raw HTML omitted -->
+<p>Next I turn on ssh-agent, and add the key to it.</p>
+<p><code>eval &quot;$(ssh-agent -s)&quot;</code> <!-- raw HTML omitted -->
+<code>ssh-add ~/.ssh/id_ed25519</code></p>
+<p>If you opted for a different key identifier, you will need to remember to change the key idea in this code also.</p>
+<!-- raw HTML omitted -->
+<p>I also need to add the ssh key to my Github account - so I concatenate the key to terminal ready for copying and pasting later.</p>
+<p><code>cat ~/.ssh/id_ed25519.pub</code></p>
+<!-- raw HTML omitted -->
+<p>Now in my Github account I navigate through to my account settings, scrolling through to the access section.</p>
+<!-- raw HTML omitted -->
+<p>Heading into the SSH and GPG keys section, I click on the green button to add a new SSH key.</p>
+<!-- raw HTML omitted -->
+<p>Here I paste in the concatenated SSH key that I copied earlier, clicking the &lsquo;Add SSH Key&quot; button that will appear below the key box in the screenshot below.</p>
+<!-- raw HTML omitted -->
+<p>Finally, having added the SSH key to Github, I finish up for the night by testing that it works:</p>
+<p><code>ssh -T git@github.com</code></p>
+<p>If the key has installed correctly, the same text as below should appear, stating that you have successfully authenticated, but Github does not provide shell access.</p>
+<!-- raw HTML omitted -->
+<p>A simple and straightforward walkthrough that is essentially identical on Chromebook to the process on other machines.  Stay tuned to see what I setup on Chromebook next, and if there is anything that you would like me to try to get working, raise it in the discussion section below.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/22/wee-fearghus-crawling.html" class="u-url"><time class="dt-published" datetime="2023-03-22 19:39:39 &#43;0000">Mar 22, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Wee Fearghus crawling up for a hug from ibicenco compatriot bayLee this evening.  Fearghus is doing really well now.</p>
+<p>🐕 🐕</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2023/03/21/installing-visual-studio.html">Installing Visual Studio Code on Chromebook</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/21/installing-visual-studio.html" class="u-url"><time class="dt-published" datetime="2023-03-21 21:44:41 &#43;0000">Mar 21, 2023</time></a>
+
+		<div class="e-content">
+			 <p>In this article I run through how to setup Visual Studio Code on a Chromebook.  This article is the second in a series of articles about doing geeky things with <a href="https://lee-perry.co.uk/categories/chromebook/">Chromebooks</a> - from software development to retro gaming.  If you would like to find out a little about why, and hardware choices, please refer back to the first article in the series <a href="https://lee-perry.co.uk/2023/03/20/211016.html">here</a>.</p>
+<p>There are a couple of things that you should check before you begin.  If you have read my earlier article, you will have noted that buying an intel rather than arm based Chromebook is important for versatility.
+Run <code>dpkg --print-architecture</code> in the penguin Linux terminal to find out - hopefully the answer will be amd as below.
+<!-- raw HTML omitted --></p>
+<p>Next, my Chromebook came with python and git already installed - run <code>git --version</code> and <code>python3 --version</code> in the penguin terminal to check that both are installed.
+<!-- raw HTML omitted --></p>
+<p>There are a couple of tasks that we need to carry out to prepare the environment.  First run <code>sudo apt-get update</code> to update the apt-get package library on the machine.
+<!-- raw HTML omitted --></p>
+<p>Then run <code>sudo apt-get install -y gnome-keyring</code> to install the gnome keyring package, which will help to work with secure data.
+<!-- raw HTML omitted --></p>
+<p>At this point you should be ready to get started.  Head over to <a href="https://code.visualstudio.com/download">code.virtualstudio.com</a>, and download the correct Debian executable for your Chromebook - x64 if you do have an intel/amd chip.
+<!-- raw HTML omitted --></p>
+<p>Double click on the executable that you have downloaded, and the install modal should load.
+<!-- raw HTML omitted --></p>
+<p>If the installation completes successfully, you should now be able to see Virtual Studio Code on the find menu.
+<!-- raw HTML omitted --></p>
+<p>Double click on the virtual studio code application, and you will now be at the main control screen.  If you have bought a lower powered or arm chipped Chromebook, this may take a little longer to load.
+<!-- raw HTML omitted --></p>
+<p>Next you need to prepare the installation ready for use.  First install the linter for the languages you wish to use.  Shortly I will run a brief python script, so I install the python linter from the extensions menu.
+<!-- raw HTML omitted --></p>
+<p>None of the key strokes within virtual studio code will be working properly.  So (in your chrome browser) head over to <a href="chrome://flags">chrome://flags</a> and turn on the deprecate alt-based six pack extension, this will release the keys that will otherwise be reserved for chrome.</p>
+<p>My screenshot button will still not work - instead click control+shift+find windows buttons simultaneously, and the screenshot functionality will open.
+<!-- raw HTML omitted --></p>
+<p>Finally I run a wee hello world script to say hello to the world.
+<!-- raw HTML omitted --></p>
+<p>At this point I have a simple development machine setup on my Chromebook, and hopefully so have you.  Stay tuned to see what I make my Chromebook do next - I&rsquo;ll probably look to work out how to generate SSH keys, and link to my github account.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2023/03/20/211016.html">Turning a Chromebook into a Linux development machine</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/20/211016.html" class="u-url"><time class="dt-published" datetime="2023-03-20 22:19:10 &#43;0000">Mar 20, 2023</time></a>
+
+		<div class="e-content">
+			 <p>My Chromebook series follows my experiment using a Chromebook as a Linux based software development and retro gaming laptop.  This article walks through setting up the Linux development environment on Chromebook.</p>
+<h2 id="first-of-all-though-why">First of all though, why?</h2>
+<p>There are a number of reasons that I wanted to do this project.</p>
+<p>First of all, not being on Windows is not one of those reasons.  I have to use Windows based environments most of the time when working for my employers, but otherwise have barely touched Windows in a decade.  I became so tired of maintaining ever sluggish machines and keeping malware at bay that not only did I remove it from my own hardware, I took the Wombles on a Linux Mint journey too.</p>
+<p>That worked really well for the Wombles for about a decade, running Linux Mint on an old tower PC unit.  No viruses, no slowdown, no need to clean up and defragment their HDD every time we went to see them in Spain.  Until last year when the hardware finally failed.  Wanting them to stay on a low maintenance low risk setup, I&rsquo;d been planning to transition them onto a Chromebook for a while, which increasingly made sense given their Android adoption in the intervening period.</p>
+<p>The main problem was, that I needed to be able to train them to use a Chromebook, and given that my own technology stack for most of the last decade had revolved around all things Apple, I&rsquo;d never used them.  So we bought a wee Chromebook for the wombles to use - their use case revolves entirely around Chrome anyway, and another for ourselves so that we could train them on how to set it up from afar in Burnley, in the UK.  Thankfully, most Chromebooks are as cheap as chips - the technology requirements for a computer that in many ways is based upon mobile and tablet architecture are not too taxing.</p>
+<p>I was quite impressed with my little Lenovo Ideapad.  It was not a high spec, and though that showed it has been fantastic for doing all things browser based whether in the lounge or sat on a train.  I particularly enjoyed the quiet that came with not being on my M1 MacBook Air, which though excellent, is very well connected to the world.  So I saw the virtue in using a Chromebook to work online in a more offline manner.  I&rsquo;d also used the Linux developer mode to set up a basic development environment.  It worked, but I could not install everything that I wanted to - in part due to power and memory, and in part because I had chosen a model with an ARM chip structure rather than x86 (Intel).</p>
+<p>Finally, my MacBook Air died last week after just 15 months.  Though it has been subsequently rejuvenated through a screen replacement (for a third of the cost at the genius bar), I had decided that I would not replace, and would instead experiment with a higher specification Chromebook, primarily using the Debian based Linux development environment.</p>
+<h2 id="which-chromebook">Which Chromebook?</h2>
+<p>So I opted for an Acer Chromebook 515.  It has a 256GB SSD drive, 8GB RAM generous 16&quot; screen and an 11th generation Intel i5 chip - positively overkill for a Chromebook.  Not everything I try to do will necessarily work, but this series of articles will walk through my attempts to setup my development environment, and more ambitiously to use it up as a retro-gaming machine.  Between gift cards and promo vouchers, this machine actually only set me back about £300/€350/$400.</p>
+<p>If you are following along, and read the rest of the articles in the <a href="https://lee-perry.co.uk/categories/chromebook/">Chromebook</a> category to make sure that I succeeded, you probably want to buy a Chromebook with a modern i or m series chip of a recent generation for the best chance of success.</p>
+<h2 id="step-by-step-setup">Step by Step setup</h2>
+<p>So without further ado, lets begin.</p>
+<p>First of all open the settings application on the Chromebook.  Scroll down to the &lsquo;&lt; &gt; Developers&rsquo; section towards the bottom of the left hand menu.  Once there, if you have a recent Chromebook compatible with the Linux Development Environment, you shouild see an option to turn this on.</p>
+<!-- raw HTML omitted -->
+<p>Click &lsquo;Next to proceed&rsquo;:</p>
+<!-- raw HTML omitted -->
+<p>Having turned on the development environment, choose your username for the Linux environment and the size of the disk that you will allocate to it.  You can change this up and down later, but here I&rsquo;m leaving 64GB for the Chromebook, and giving the remainder to the Linux environment - that is predominantly what I am intending to use most on this machine.</p>
+<!-- raw HTML omitted -->
+<p>Finally, open up the Linux &lsquo;Terminal&rsquo; application.  That will open up the Penguin Command Line Interface that you will use to control the linux environment.</p>
+<!-- raw HTML omitted -->
+<p>run a quick &lsquo;python &ndash;version&rsquo; in Penguin, and you will see the version of Python installed on the machine.</p>
+<p>I&rsquo;ll leave it there for this article, but check out the articles that follow in the <a href="https://lee-perry.co.uk/categories/chromebook/">Chromebook</a> to see how I got on!</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2023/03/19/discovered-this-heritage.html" class="u-url"><time class="dt-published" datetime="2023-03-19 21:41:51 &#43;0000">Mar 19, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Discovered this heritage tramway and museum while at Heaton Park for todays half marathon.</p>
+<p>Looked great, but felt too rough after the run to explore further.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 
 		<a href="https://lee-perry.co.uk/2023/03/19/mr-leo-and.html" class="u-url"><time class="dt-published" datetime="2023-03-19 21:32:14 &#43;0000">Mar 19, 2023</time></a>
 

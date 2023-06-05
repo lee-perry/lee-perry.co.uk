@@ -7,10 +7,118 @@
 	"items": [
 		
 			{
+				"id": "http://leeperry.micro.blog/2023/06/05/install-and-play.html",
+				"title": "Install and play Championship Manager 03-04 on MacOS (M1/M2 chips) with Crossover",
+				"content_html": "<p>How to install and patch Championship Manager 03/04 on MacOS M series computers using Crossover.</p>\n<hr>\n<p>For some reason, installing Championship Manager 03/04 was a very popular article on my MacRetro project (I prefer CM0102).</p>\n<p>This video provides a step by step walk through of how to install and patch the game to play without a physical CD-ROM - one of the most common comments on that site before migrating it here.</p>\n<!-- raw HTML omitted -->\n<p>You will need:</p>\n<ul>\n<li><a href=\"https://oldgamesdownload.com/championship-manager-season-03-04/\">iso</a></li>\n<li><a href=\"http://www.gameburnworld.com/dl/dl.php?file=ChampionshipManager03-04v4.1.2FixedexeEng.rar\">patch</a></li>\n</ul>\n<p><strong>external links provided for convenience only - always virus scan prior to using</strong></p>\n<p>Let me know using the &lsquo;reply by email&rsquo; functionality below should these links cease to function.</p>\n<p>As I prefer <a href=\"https://lee-perry.co.uk/macretro/championship-manager-0102/\">Championship Manager 01/02</a> this will likely be my only post on CM03/04, though never say never.  Installation in Playonmac should work on Intel machines though I&rsquo;ve not tested (Instructions for Crossover should work on Intel/M1 and M2 MacOS).</p>\n",
+				"content_text": "How to install and patch Championship Manager 03/04 on MacOS M series computers using Crossover.\n\n---\n\nFor some reason, installing Championship Manager 03/04 was a very popular article on my MacRetro project (I prefer CM0102).\n\nThis video provides a step by step walk through of how to install and patch the game to play without a physical CD-ROM - one of the most common comments on that site before migrating it here.\n\n<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/3b29eda3be974fa0bd660f1c92e2b95e\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>\n\nYou will need:\n- [iso](https://oldgamesdownload.com/championship-manager-season-03-04/)\n- [patch](http://www.gameburnworld.com/dl/dl.php?file=ChampionshipManager03-04v4.1.2FixedexeEng.rar)\n\n**external links provided for convenience only - always virus scan prior to using**\n\nLet me know using the 'reply by email' functionality below should these links cease to function.\n\nAs I prefer [Championship Manager 01/02](https://lee-perry.co.uk/macretro/championship-manager-0102/) this will likely be my only post on CM03/04, though never say never.  Installation in Playonmac should work on Intel machines though I've not tested (Instructions for Crossover should work on Intel/M1 and M2 MacOS).\n",
+				"date_published": "2023-06-05T07:56:11+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/05/install-and-play.html",
+				"tags": ["Articles"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/04/applying-nicks-patcher.html",
+				"title": "Applying Nick's Patcher to correct year and competition names in your Championship Manager 01/02 install on MacOS",
+				"content_html": "<p>How to apply Nick&rsquo;s patcher to your Championship Manager 01/02 install on MacOS - correcting game year, competition names and much more!</p>\n<hr>\n<p>This is the sixth and final article in my updated series, walking through how to install and update Championship Manager 01/02 on MacOS with M1/M2 processors using Crossover.  Earlier in the series:</p>\n<ol>\n<li><a href=\"https://lee-perry.co.uk/2023/05/31/install-championship-manager.html\">Install Championship Manager 01-02</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html\">Patch Championship Manager 01-02 to 3.9.68</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/02/update-championship-manager.html\">Update Championship Manager 01-02 game data</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/update-championship-manager.html\">Update Championship Manager 01-02 background images</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html\">Import Championship Manager 01-02 tactics packs</a></li>\n</ol>\n<!-- raw HTML omitted -->\n<h3 id=\"why\">Why?</h3>\n<p>Highlights of Nick&rsquo;s patch include:</p>\n<ul>\n<li>Updated game year</li>\n<li>Updated competition names</li>\n<li>Manager profile fixes to make new jobs, especially foreign, easier to obtain</li>\n<li>Remove stadium expansion limits</li>\n<li>Reveal hidden characteristics</li>\n<li>Reveal your star players</li>\n<li>Remove un/protected contracts</li>\n<li>Reduce processor usage</li>\n<li>Remove foreign player limit</li>\n</ul>\n<h3 id=\"how\">How</h3>\n<p>First of all you will need to get hold of a copy of Nick&rsquo;s patcher.  You can find that latest version on the <a href=\"https://www.champman0102.net/viewtopic.php?f=72&amp;t=1392\">Champman0102</a> forum.</p>\n<p>Right click on your bottle in Crossover, and select the <em>install software into&hellip;</em> option from the menu.</p>\n<p>Select the first edit button to choose the file that you want to install, and select the file that you just downloaded.</p>\n<p>When the patch loads, you will need to identify the executable that you wish yo patch - click the prompt and navigate through C: &gt; Program Files &gt; Championship Manager 01/02, and select the cm0102.exe executable.</p>\n<p>You can then customise the updates that you wish to make.  The patch will suggest an update profile, but you may wish to add other features - such as revealing hidden attributes, and applying year specific patches.</p>\n<p>Load up CM0102, you will need to create a new save if you have applied naming corrections (and probably wise to anyway.  Look at your amazing Burnley team, and note their presence in the Championship, season start year, and bask in the glory of your teams' revealed hidden attributes.</p>\n<h3 id=\"caution\">Caution</h3>\n<p>Make sure to run weekly autosave in your settings - occasionally the game will stick, often around a penalty.</p>\n",
+				"content_text": "How to apply Nick's patcher to your Championship Manager 01/02 install on MacOS - correcting game year, competition names and much more!\n\n---\n\nThis is the sixth and final article in my updated series, walking through how to install and update Championship Manager 01/02 on MacOS with M1/M2 processors using Crossover.  Earlier in the series:\n1. [Install Championship Manager 01-02](https://lee-perry.co.uk/2023/05/31/install-championship-manager.html) \n2. [Patch Championship Manager 01-02 to 3.9.68](https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html)\n3. [Update Championship Manager 01-02 game data](https://lee-perry.co.uk/2023/06/02/update-championship-manager.html)\n4. [Update Championship Manager 01-02 background images](https://lee-perry.co.uk/2023/06/03/update-championship-manager.html)\n5. [Import Championship Manager 01-02 tactics packs](https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html)\n\n<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/4330e47acbc945adb052ca0d9155f9e0\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>\n\n### Why?\nHighlights of Nick's patch include:\n- Updated game year\n- Updated competition names\n- Manager profile fixes to make new jobs, especially foreign, easier to obtain\n- Remove stadium expansion limits\n- Reveal hidden characteristics\n- Reveal your star players\n- Remove un/protected contracts\n- Reduce processor usage\n- Remove foreign player limit\n\n### How\nFirst of all you will need to get hold of a copy of Nick's patcher.  You can find that latest version on the [Champman0102](https://www.champman0102.net/viewtopic.php?f=72&t=1392) forum.\n\nRight click on your bottle in Crossover, and select the _install software into..._ option from the menu.  \n\nSelect the first edit button to choose the file that you want to install, and select the file that you just downloaded.\n\nWhen the patch loads, you will need to identify the executable that you wish yo patch - click the prompt and navigate through C: > Program Files > Championship Manager 01/02, and select the cm0102.exe executable.\n\nYou can then customise the updates that you wish to make.  The patch will suggest an update profile, but you may wish to add other features - such as revealing hidden attributes, and applying year specific patches.\n\nLoad up CM0102, you will need to create a new save if you have applied naming corrections (and probably wise to anyway.  Look at your amazing Burnley team, and note their presence in the Championship, season start year, and bask in the glory of your teams' revealed hidden attributes.\n\n### Caution\nMake sure to run weekly autosave in your settings - occasionally the game will stick, often around a penalty.\n",
+				"date_published": "2023-06-04T22:44:56+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html",
+				"tags": ["Gaming","Articles"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/04/had-to-reinstall.html",
+				
+				"content_html": "<p>Had to reinstall and do further testing on my patched Championship Manager 01-02 install as the game froze at every penalty.  Had to play all the way through to December to see one, but its working now!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Had to reinstall and do further testing on my patched Championship Manager 01-02 install as the game froze at every penalty.  Had to play all the way through to December to see one, but its working now! \n\n<img src=\"uploads/2023/5a625294d0.png\" width=\"600\" height=\"450\" alt=\"Championship Manager 01-02 match screen, Wales\">\n",
+				"date_published": "2023-06-04T06:55:58+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/04/had-to-reinstall.html",
+				"tags": ["Gaming","Snips"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/03/add-tactics-packs.html",
+				"title": "Add tactics packs to your Championship Manager 01-02 install on MacOS",
+				"content_html": "<p>How to install tactics packs inside your Championship Manager 01/02 install.</p>\n<hr>\n<p>This is the fifth article in my updated series, walking through how to install and update Championship Manager 01/02 on MacOS with M1/M2 processors using Crossover.  Earlier in the series:</p>\n<ol>\n<li><a href=\"https://lee-perry.co.uk/2023/05/31/install-championship-manager.html\">Install Championship Manager 01-02</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html\">Patch Championship Manager 01-02 to 3.9.68</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/02/update-championship-manager.html\">Update Championship Manager 01-02 game data</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/update-championship-manager.html\">Update Championship Manager 01-02 background images</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html\">Import Championship Manager 01-02 tactics packs</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html\">Using Nick&rsquo;s Patcher for Championship Manager 01-02</a></li>\n</ol>\n<!-- raw HTML omitted -->\n<p>First of all you will need a tactics pack.  I could not get any of the zipped downloads on the champman0102 forum to work on Mac, or inside google drive.  I did find <a href=\"https://nic.hopto.org/open/cm0102/tactics/UTPv3.zip\">this pack</a>, which worked grand.</p>\n<p>Open the uncompressed download folder, and select the .tct files inside that you want to use.</p>\n<p>In Crossover, right click on your CM0102 bottle, and select &lsquo;Open C: Drive&rsquo;.</p>\n<p>The virtual C drive folder will load in finder.  Select &lsquo;Program Files&rsquo; then &lsquo;Championship Manager 01-02&rsquo; then &lsquo;Tactics&rsquo;.  Paste the files you have copied into this folder.</p>\n<p>Open up your Championship Manager 01/02 install, and look at your amazing Burnley team, and think about which tactic to use with them.</p>\n",
+				"content_text": "How to install tactics packs inside your Championship Manager 01/02 install.\n\n---\n\nThis is the fifth article in my updated series, walking through how to install and update Championship Manager 01/02 on MacOS with M1/M2 processors using Crossover.  Earlier in the series:\n1. [Install Championship Manager 01-02](https://lee-perry.co.uk/2023/05/31/install-championship-manager.html) \n2. [Patch Championship Manager 01-02 to 3.9.68](https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html)\n3. [Update Championship Manager 01-02 game data](https://lee-perry.co.uk/2023/06/02/update-championship-manager.html)\n4. [Update Championship Manager 01-02 background images](https://lee-perry.co.uk/2023/06/03/update-championship-manager.html)\n5. [Import Championship Manager 01-02 tactics packs](https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html)\n6. [Using Nick's Patcher for Championship Manager 01-02](https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html)\n\n<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/173b953e7ce944daaafdb42a568c074c\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>\n\nFirst of all you will need a tactics pack.  I could not get any of the zipped downloads on the champman0102 forum to work on Mac, or inside google drive.  I did find [this pack](https://nic.hopto.org/open/cm0102/tactics/UTPv3.zip), which worked grand.\n\nOpen the uncompressed download folder, and select the .tct files inside that you want to use.\n\nIn Crossover, right click on your CM0102 bottle, and select 'Open C: Drive'.\n\nThe virtual C drive folder will load in finder.  Select 'Program Files' then 'Championship Manager 01-02' then 'Tactics'.  Paste the files you have copied into this folder.\n\nOpen up your Championship Manager 01/02 install, and look at your amazing Burnley team, and think about which tactic to use with them.\n",
+				"date_published": "2023-06-03T17:09:30+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html",
+				"tags": ["Articles","Video"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/03/most-unofficial-patchers.html",
+				
+				"content_html": "<p>Most unofficial patchers for CM01/02 crash in Wine/Crossover/Playonmac, so I&rsquo;m excited that <a href=\"https://champman0102.net/viewtopic.php?t=1392\">Nick&rsquo;s Patcher v2.25</a> appears to work.  I&rsquo;ll test that properly later on.</p>\n",
+				"content_text": "Most unofficial patchers for CM01/02 crash in Wine/Crossover/Playonmac, so I'm excited that [Nick's Patcher v2.25](https://champman0102.net/viewtopic.php?t=1392) appears to work.  I'll test that properly later on.\n",
+				"date_published": "2023-06-03T16:18:37+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/03/most-unofficial-patchers.html",
+				"tags": ["Gaming","Snips"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/03/update-championship-manager.html",
+				"title": "Update Championship Manager 01-02 Background Images on MacOS",
+				"content_html": "<p>How to update the club, player and stadium images inside your Championship Manager 01/02 install.</p>\n<hr>\n<p>This is the fourth article in my updated series, walking through how to install and update Championship Manager 01/02 on MacOS with M1/M2 processors using Crossover.  Full series:</p>\n<ol>\n<li><a href=\"https://lee-perry.co.uk/2023/05/31/install-championship-manager.html\">Install Championship Manager 01-02</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html\">Patch Championship Manager 01-02 to 3.9.68</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/02/update-championship-manager.html\">Update Championship Manager 01-02 game data</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/update-championship-manager.html\">Update Championship Manager 01-02 background images</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html\">Import Championship Manager 01-02 tactics packs</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html\">Using Nick&rsquo;s Patcher for Championship Manager 01-02</a></li>\n</ol>\n<!-- raw HTML omitted -->\n<p>The CM0102 iso released into freeware by Eidos does not contain the background images (I&rsquo;m pretty sure they are there an my CD-ROM, I just don&rsquo;t have anything with a CD-ROM to test this!), but even if you are playing with the original disc, you will likely want to update the images given the number of stadium moves that have taken place in the interim.</p>\n<p>First of all you will need a stadium images pack.  I could not get any of the zipped downloads on the champman0102 forum to work on Mac, or inside google drive.  I did find <a href=\"https://www.lonebullet.com/file/skins/cm0102-background-pack/3\">this pack</a>, which worked fine for me - <strong>though be careful not to click on any of the spurious adverts on this site</strong>.</p>\n<p>Open the uncompressed download folder, and copy all of the files inside it.</p>\n<p>In Crossover, right click on your CM0102 bottle, and select &lsquo;Open C: Drive&rsquo;.</p>\n<p>The virtual C drive folder will load in finder.  Select &lsquo;Program Files&rsquo; then &lsquo;Championship Manager 01-02&rsquo; then &lsquo;Pictures&rsquo;.</p>\n<p>Paste all of the files you have copied into this folder select &lsquo;Replace&rsquo; and check &lsquo;Apply to All&rsquo; when prompted to do so - you will need to do this twice, once for the config file, and again for the images.</p>\n<p>Open up your Championship Manager 01/02 install, and gaze lovingly at the home of Burnley FC, Turf Moor, &lsquo;Happy Place&rsquo;.</p>\n",
+				"content_text": "How to update the club, player and stadium images inside your Championship Manager 01/02 install.\n\n---\n\nThis is the fourth article in my updated series, walking through how to install and update Championship Manager 01/02 on MacOS with M1/M2 processors using Crossover.  Full series:\n1. [Install Championship Manager 01-02](https://lee-perry.co.uk/2023/05/31/install-championship-manager.html) \n2. [Patch Championship Manager 01-02 to 3.9.68](https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html)\n3. [Update Championship Manager 01-02 game data](https://lee-perry.co.uk/2023/06/02/update-championship-manager.html)\n4. [Update Championship Manager 01-02 background images](https://lee-perry.co.uk/2023/06/03/update-championship-manager.html)\n5. [Import Championship Manager 01-02 tactics packs](https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html)\n6. [Using Nick's Patcher for Championship Manager 01-02](https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html)\n\n<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/1cc1a48c379b4817a8207ad6aeec421a\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>\n\nThe CM0102 iso released into freeware by Eidos does not contain the background images (I'm pretty sure they are there an my CD-ROM, I just don't have anything with a CD-ROM to test this!), but even if you are playing with the original disc, you will likely want to update the images given the number of stadium moves that have taken place in the interim.\n\nFirst of all you will need a stadium images pack.  I could not get any of the zipped downloads on the champman0102 forum to work on Mac, or inside google drive.  I did find [this pack](https://www.lonebullet.com/file/skins/cm0102-background-pack/3), which worked fine for me - **though be careful not to click on any of the spurious adverts on this site**.\n\nOpen the uncompressed download folder, and copy all of the files inside it.\n\nIn Crossover, right click on your CM0102 bottle, and select 'Open C: Drive'.\n\nThe virtual C drive folder will load in finder.  Select 'Program Files' then 'Championship Manager 01-02' then 'Pictures'.\n\nPaste all of the files you have copied into this folder select 'Replace' and check 'Apply to All' when prompted to do so - you will need to do this twice, once for the config file, and again for the images.\n\nOpen up your Championship Manager 01/02 install, and gaze lovingly at the home of Burnley FC, Turf Moor, 'Happy Place'.\n",
+				"date_published": "2023-06-03T15:54:32+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/03/update-championship-manager.html",
+				"tags": ["Gaming","Articles","Video"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/03/letape-czech-republic.html",
+				
+				"content_html": "<h2 id=\"letape-czech-republic-2023---virtual--stage-1\">L&rsquo;Etape Czech Republic 2023 - Virtual | Stage 1</h2>\n<p>A rolling ride from Belec into Prage, with three steep climbs, two coming together in the last 3km of the ride.  A nice ride, with some good views of light rail and Soviet-era housing on entering Prague</p>\n<p>🚴‍♂️ 31.99km &gt; | 369m ⌃ | 1:06:24 | 145bpm | 175w</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "## L'Etape Czech Republic 2023 - Virtual | Stage 1\r\nA rolling ride from Belec into Prage, with three steep climbs, two coming together in the last 3km of the ride.  A nice ride, with some good views of light rail and Soviet-era housing on entering Prague\r\n\r\n🚴‍♂️ 31.99km > | 369m ⌃ | 1:06:24 | 145bpm | 175w\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/2cc59c4e88.png\" width=\"600\" height=\"450\" alt=\"Entering Prague on Rouvy\">\n",
+				"date_published": "2023-06-03T14:24:31+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/03/letape-czech-republic.html",
+				"tags": ["Cycling","Snips"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/02/not-really-sure.html",
+				
+				"content_html": "<p>Not really sure why my micro.blog videos come out larger in filesize and more pixelated than the mp4 I have prepared in handbrake&hellip; any advice?</p>\n",
+				"content_text": "Not really sure why my micro.blog videos come out larger in filesize and more pixelated than the mp4 I have prepared in handbrake... any advice?\n",
+				"date_published": "2023-06-02T22:38:56+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/02/not-really-sure.html",
+				"tags": ["microdotblog","Snips"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/02/update-championship-manager.html",
+				"title": "Update Championship Manager 01-02 player and club data",
+				"content_html": "<p>How to update your Championship Manager 01-02 install on MacOS to play with current era player data.</p>\n<hr>\n<p>If you have been following this series you will already have <a href=\"https://lee-perry.co.uk/2023/05/31/install-championship-manager.html\">installed Championship Manager 01-02</a> in Crossover, and you will have <a href=\"https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html\">applied the last Sports Interactive 3.9.68 patch</a> to prepare your install ready for updating.  This article shows how you can quickly update the game database to deploy current data.</p>\n<p>Full series:</p>\n<ol>\n<li><a href=\"https://lee-perry.co.uk/2023/05/31/install-championship-manager.html\">Install Championship Manager 01-02</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html\">Patch Championship Manager 01-02 to 3.9.68</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/02/update-championship-manager.html\">Update Championship Manager 01-02 game data</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/update-championship-manager.html\">Update Championship Manager 01-02 background images</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html\">Import Championship Manager 01-02 tactics packs</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html\">Using Nick&rsquo;s Patcher for Championship Manager 01-02</a></li>\n</ol>\n<!-- raw HTML omitted -->\n<p>First of all head over to the <a href=\"https://www.champman0102.net/viewforum.php?f=73\">Champman0102 Forum</a>, and once you have registered download the data pack that you want to play.</p>\n<p>Open the uncompressed download folder, and copy all of the files inside it.</p>\n<p>In Crossover, right click on your CM0102 bottle, and select &lsquo;Open C: Drive&rsquo;.</p>\n<p>The virtual C drive folder will load in finder.  Select &lsquo;Program Files&rsquo; then &lsquo;Championship Manager 01-02&rsquo; then &lsquo;Data&rsquo;.</p>\n<p>Paste all of the files you have copied into this folder select &lsquo;Replace&rsquo; and check &lsquo;Apply to All&rsquo; when prompted to do so.</p>\n<p>Open up your copy of Championship Manager install, and gaze lovingly at Burnley&rsquo;s 2022-3 Championship winning team.</p>\n<p>Note that the game date does not change - though the data has been updated without patching further the game start date is still 2001.</p>\n<p>Enjoy the Championship Managering! I&rsquo;ll be back shortly with more customisation&hellip;</p>\n",
+				"content_text": "How to update your Championship Manager 01-02 install on MacOS to play with current era player data.\n\n---\n\nIf you have been following this series you will already have [installed Championship Manager 01-02](https://lee-perry.co.uk/2023/05/31/install-championship-manager.html) in Crossover, and you will have [applied the last Sports Interactive 3.9.68 patch](https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html) to prepare your install ready for updating.  This article shows how you can quickly update the game database to deploy current data.\n\nFull series:\n1. [Install Championship Manager 01-02](https://lee-perry.co.uk/2023/05/31/install-championship-manager.html) \n2. [Patch Championship Manager 01-02 to 3.9.68](https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html)\n3. [Update Championship Manager 01-02 game data](https://lee-perry.co.uk/2023/06/02/update-championship-manager.html)\n4. [Update Championship Manager 01-02 background images](https://lee-perry.co.uk/2023/06/03/update-championship-manager.html)\n5. [Import Championship Manager 01-02 tactics packs](https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html)\n6. [Using Nick's Patcher for Championship Manager 01-02](https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html)\n\n<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/0f354473e9ac4429a2e4000b87c0359d\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>\n\nFirst of all head over to the [Champman0102 Forum](https://www.champman0102.net/viewforum.php?f=73), and once you have registered download the data pack that you want to play.\n\nOpen the uncompressed download folder, and copy all of the files inside it.\n\nIn Crossover, right click on your CM0102 bottle, and select 'Open C: Drive'.\n\nThe virtual C drive folder will load in finder.  Select 'Program Files' then 'Championship Manager 01-02' then 'Data'.\n\nPaste all of the files you have copied into this folder select 'Replace' and check 'Apply to All' when prompted to do so.\n\nOpen up your copy of Championship Manager install, and gaze lovingly at Burnley's 2022-3 Championship winning team.\n\nNote that the game date does not change - though the data has been updated without patching further the game start date is still 2001.\n\nEnjoy the Championship Managering! I'll be back shortly with more customisation... \n",
+				"date_published": "2023-06-02T22:18:55+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/02/update-championship-manager.html",
+				"tags": ["Gaming","Articles","Video"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/02/i-had-my.html",
+				
+				"content_html": "<p>I had my Wattbike Atom serviced today with new shifter board, and chain replacement.</p>\n<p>Looking forward to seeing what happens to power output this weekend, as my FTP did not get back to within 10% of what it was before the last service / chain swap.</p>\n<p>🚴‍♂️</p>\n",
+				"content_text": "I had my Wattbike Atom serviced today with new shifter board, and chain replacement.  \n\nLooking forward to seeing what happens to power output this weekend, as my FTP did not get back to within 10% of what it was before the last service / chain swap.\n\n🚴‍♂️ \n",
+				"date_published": "2023-06-02T19:11:54+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/02/i-had-my.html",
+				"tags": ["Cycling","Snips"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/06/01/patch-championship-manager.html",
+				"title": "Patch Championship Manager 01-02 in Crossover on MacOS",
+				"content_html": "<p>This article walks through how to install the 3.9.68 patch to your Championship Manager 01-02 installation in a Crossover bottle.</p>\n<hr>\n<p>In my <a href=\"https://lee-perry.co.uk/2023/05/31/install-championship-manager.html\">previous post</a> I walked through how to get Championship Manager 01-02 running on M series MacOS.  Here we patch that install to the final production version released by Eidos.</p>\n<p>Full series:</p>\n<ol>\n<li><a href=\"https://lee-perry.co.uk/2023/05/31/install-championship-manager.html\">Install Championship Manager 01-02</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html\">Patch Championship Manager 01-02 to 3.9.68</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/02/update-championship-manager.html\">Update Championship Manager 01-02 game data</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/update-championship-manager.html\">Update Championship Manager 01-02 background images</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html\">Import Championship Manager 01-02 tactics packs</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html\">Using Nick&rsquo;s Patcher for Championship Manager 01-02</a></li>\n</ol>\n<!-- raw HTML omitted -->\n<h2 id=\"why-bother\">Why bother?</h2>\n<p>There are two main reasons that you will want to patch your CM01/02 install to 3.9.68.  Firstly - it will fix all of the below problems, most of which I did not notice first time around.  Second, and more importantly, you will need to have patched to 3.9.68 if you want to install any of the data updates that continue to be maintaned even now.</p>\n<h3 id=\"3962\">3.9.62</h3>\n<ul>\n<li>Compensation is now paid to players former club for non Bosman 2 transfers</li>\n<li>Fixed potential crash when reminders are generated for player notes</li>\n<li>Brazilian National First and Second divisions now use playoff stage for history and not league table</li>\n<li>Fixed problem with Libertadores Cup picking wrong Brazilian teams sometimes</li>\n<li>Three regional Brazilian championships now award prize money if their playoff match is not needed.</li>\n</ul>\n<h3 id=\"3968\">3.9.68</h3>\n<ul>\n<li>West Ham duplicate strikers bug fixed</li>\n<li>Finnish Premier Division teams corrected</li>\n<li>Games not running in all languages fixed</li>\n<li>ARSE command problem fixed</li>\n<li>England + English Conference + Scotland problem fixed</li>\n<li>Australian NSL: Number of teams entered to comp fixed, number of foreign players allowed bug fixed</li>\n<li>Player surnames not appearing on Team of the week screen fixed</li>\n<li>Fixed problem with Polish First Division relegations</li>\n<li>Fixed problem with Argentine Second Division</li>\n<li>Korean Extended length of Media strings</li>\n<li>Korean Updated Korean player and team data</li>\n</ul>\n<h2 id=\"how\">How</h2>\n<p>Firstly, head over to <a href=\"https://www.champman0102.net/viewtopic.php?f=72&amp;t=264\">champan0102.net</a>, and download a copy of the patch.</p>\n<p>Right click on your bottle in Crossover, and select the <em>install software into&hellip;</em> option from the menu.</p>\n<p>Select the first edit button to choose the file that you want to install, and select the file that you just downloaded.</p>\n<p>Install the patch, working your way through the couple of dialogues that prompt.</p>\n<p>Load up CM0102 to make sure that the version number has upversioned to 3.9.68.</p>\n",
+				"content_text": "This article walks through how to install the 3.9.68 patch to your Championship Manager 01-02 installation in a Crossover bottle.\n\n---\n\nIn my [previous post](https://lee-perry.co.uk/2023/05/31/install-championship-manager.html) I walked through how to get Championship Manager 01-02 running on M series MacOS.  Here we patch that install to the final production version released by Eidos.\n\nFull series:\n1. [Install Championship Manager 01-02](https://lee-perry.co.uk/2023/05/31/install-championship-manager.html) \n2. [Patch Championship Manager 01-02 to 3.9.68](https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html)\n3. [Update Championship Manager 01-02 game data](https://lee-perry.co.uk/2023/06/02/update-championship-manager.html)\n4. [Update Championship Manager 01-02 background images](https://lee-perry.co.uk/2023/06/03/update-championship-manager.html)\n5. [Import Championship Manager 01-02 tactics packs](https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html)\n6. [Using Nick's Patcher for Championship Manager 01-02](https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html)\n\n<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/79bf3bbc5c1243e6a37a352d89e8c560\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>\n\n## Why bother?\nThere are two main reasons that you will want to patch your CM01/02 install to 3.9.68.  Firstly - it will fix all of the below problems, most of which I did not notice first time around.  Second, and more importantly, you will need to have patched to 3.9.68 if you want to install any of the data updates that continue to be maintaned even now.\n\n### 3.9.62\n- Compensation is now paid to players former club for non Bosman 2 transfers\n- Fixed potential crash when reminders are generated for player notes\n- Brazilian National First and Second divisions now use playoff stage for history and not league table\n- Fixed problem with Libertadores Cup picking wrong Brazilian teams sometimes\n- Three regional Brazilian championships now award prize money if their playoff match is not needed.\n\n### 3.9.68\n- West Ham duplicate strikers bug fixed\n- Finnish Premier Division teams corrected\n- Games not running in all languages fixed\n- ARSE command problem fixed\n- England + English Conference + Scotland problem fixed\n- Australian NSL: Number of teams entered to comp fixed, number of foreign players allowed bug fixed\n- Player surnames not appearing on Team of the week screen fixed\n- Fixed problem with Polish First Division relegations\n- Fixed problem with Argentine Second Division\n- Korean Extended length of Media strings\n- Korean Updated Korean player and team data\n\n## How\nFirstly, head over to [champan0102.net](https://www.champman0102.net/viewtopic.php?f=72&t=264), and download a copy of the patch.\n\nRight click on your bottle in Crossover, and select the _install software into..._ option from the menu.  \n\nSelect the first edit button to choose the file that you want to install, and select the file that you just downloaded.\n\nInstall the patch, working your way through the couple of dialogues that prompt.\n\nLoad up CM0102 to make sure that the version number has upversioned to 3.9.68.\n",
+				"date_published": "2023-06-01T22:09:52+01:00",
+				"url": "https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html",
+				"tags": ["Gaming","Articles","Video"]
+			},
+			{
+				"id": "http://leeperry.micro.blog/2023/05/31/install-championship-manager.html",
+				"title": "Install Championship Manager 01-02 on MacOS in 2023",
+				"content_html": "<p>How to install Championship Manager 01/02 on M1/M2 powered MacOS machines using Crossover.</p>\n<hr>\n<p>I&rsquo;ve written a number of guides over the years describing how to install, update and play Championship Manager 01/02 an MacOS <a href=\"https://lee-perry.co.uk/2017/09/05/how-install-championship.html\">1</a> | <a href=\"https://lee-perry.co.uk/2019/11/25/how-to-install.html\">2</a> | <a href=\"https://lee-perry.co.uk/2019/12/07/how-to-play.html\">3</a>, which were quite popular on my macretro project (which I decided to incorporate here instead).</p>\n<p>Why would I want to install this? because 01/02 is probably the best version of Championship Manager ever released.  As the last version released prior to the introduction of the top down pitch view, the game play is lean and slick, while comprehensive enough to be challenging.</p>\n<p>Full series:</p>\n<ol>\n<li><a href=\"https://lee-perry.co.uk/2023/05/31/install-championship-manager.html\">Install Championship Manager 01-02</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html\">Patch Championship Manager 01-02 to 3.9.68</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/02/update-championship-manager.html\">Update Championship Manager 01-02 game data</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/update-championship-manager.html\">Update Championship Manager 01-02 background images</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html\">Import Championship Manager 01-02 tactics packs</a></li>\n<li><a href=\"https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html\">Using Nick&rsquo;s Patcher for Championship Manager 01-02</a></li>\n</ol>\n<!-- raw HTML omitted -->\n<p>I cannot get PlayOnMac to function properly, I&rsquo;ll try again, but for now I&rsquo;m using Crossover which has an associated licence fee.  Importantly, I have no affiliation with Crossover, I use their product because it is great and works well.</p>\n<p>Firstly head over to <a href=\"https://www.codeweavers.com\">Crossover</a> and download an evaluation copy, which should give you a trial period to test the software out.</p>\n<p>If you do not have a copy of the CM0102 iso, you can download it for free as Eidos released the rights to this version.  The iso is available from the <a href=\"https://www.champman0102.net/viewtopic.php?f=76&amp;t=35\">champman0102 forum</a>.</p>\n<p>The video below shows the workflow on screen which comprises of:</p>\n<ul>\n<li>mount your cm0102 iso using DiskImageMounter</li>\n<li>install an unlisted application in Crossover</li>\n<li>install</li>\n<li>name a new windows 7 <strong>32-bit</strong> bottle</li>\n<li>select autorun.exe from the mounted iso</li>\n<li>follow the CM0102 install screens that load.</li>\n<li>do not install directX at the end of the install</li>\n</ul>\n<p>Making sure that your iso is still mounted (you will be able to see the virtual drive still on your desktop), double click on the CM0102 executable in your bottle.</p>\n<p>Happy Championship managering!!!!!</p>\n<p>I&rsquo;ll return shortly to talk about applying updates to the install, and how to update the game data if you wish to do so.</p>\n",
+				"content_text": "How to install Championship Manager 01/02 on M1/M2 powered MacOS machines using Crossover.\n\n---\n\nI've written a number of guides over the years describing how to install, update and play Championship Manager 01/02 an MacOS [1](https://lee-perry.co.uk/2017/09/05/how-install-championship.html) | [2](https://lee-perry.co.uk/2019/11/25/how-to-install.html) | [3](https://lee-perry.co.uk/2019/12/07/how-to-play.html), which were quite popular on my macretro project (which I decided to incorporate here instead). \n\nWhy would I want to install this? because 01/02 is probably the best version of Championship Manager ever released.  As the last version released prior to the introduction of the top down pitch view, the game play is lean and slick, while comprehensive enough to be challenging.\n\nFull series:\n1. [Install Championship Manager 01-02](https://lee-perry.co.uk/2023/05/31/install-championship-manager.html) \n2. [Patch Championship Manager 01-02 to 3.9.68](https://lee-perry.co.uk/2023/06/01/patch-championship-manager.html)\n3. [Update Championship Manager 01-02 game data](https://lee-perry.co.uk/2023/06/02/update-championship-manager.html)\n4. [Update Championship Manager 01-02 background images](https://lee-perry.co.uk/2023/06/03/update-championship-manager.html)\n5. [Import Championship Manager 01-02 tactics packs](https://lee-perry.co.uk/2023/06/03/add-tactics-packs.html)\n6. [Using Nick's Patcher for Championship Manager 01-02](https://lee-perry.co.uk/2023/06/04/applying-nicks-patcher.html)\n\n<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/b6b3ded7412847849882599dfed4630b\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>\n\nI cannot get PlayOnMac to function properly, I'll try again, but for now I'm using Crossover which has an associated licence fee.  Importantly, I have no affiliation with Crossover, I use their product because it is great and works well.  \n\nFirstly head over to [Crossover](https://www.codeweavers.com) and download an evaluation copy, which should give you a trial period to test the software out.\n\nIf you do not have a copy of the CM0102 iso, you can download it for free as Eidos released the rights to this version.  The iso is available from the [champman0102 forum](https://www.champman0102.net/viewtopic.php?f=76&t=35).\n\nThe video below shows the workflow on screen which comprises of:\n- mount your cm0102 iso using DiskImageMounter\n- install an unlisted application in Crossover\n- install\n- name a new windows 7 **32-bit** bottle\n- select autorun.exe from the mounted iso\n- follow the CM0102 install screens that load.\n- do not install directX at the end of the install\n\nMaking sure that your iso is still mounted (you will be able to see the virtual drive still on your desktop), double click on the CM0102 executable in your bottle.\n\nHappy Championship managering!!!!!\n\nI'll return shortly to talk about applying updates to the install, and how to update the game data if you wish to do so.\n",
+				"date_published": "2023-05-31T22:35:03+01:00",
+				"url": "https://lee-perry.co.uk/2023/05/31/install-championship-manager.html",
+				"tags": ["Gaming","Articles","Video"]
+			},
+			{
 				"id": "http://leeperry.micro.blog/2023/05/31/riding-towards-the.html",
 				
 				"content_html": "<p>Riding towards the Palace of Westminster on Rouvy this evening on the <em>London - The capital of the United Kingdom</em> route.</p>\n<p>The route takes a magical mystery tour from Tower Bridge, to my old office, then my new one, Buckingham Palace then Parliament.</p>\n<p>🚴‍♂️ 11.20km &gt; | 49m ⌃ | 23:10 | 145bpm | 155w</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Riding towards the Palace of Westminster on Rouvy this evening on the _London - The capital of the United Kingdom_ route.\n\nThe route takes a magical mystery tour from Tower Bridge, to my old office, then my new one, Buckingham Palace then Parliament.\n\n🚴‍♂️ 11.20km > | 49m ⌃ | 23:10 | 145bpm | 155w\n\n\n\n<img src=\"uploads/2023/f6bbfb5e64.png\" width=\"600\" height=\"450\" alt=\"Palace of Westminster / Houses of Parliament on Rouvy\">\n",
+				"content_text": "Riding towards the Palace of Westminster on Rouvy this evening on the _London - The capital of the United Kingdom_ route.\n\nThe route takes a magical mystery tour from Tower Bridge, to my old office, then my new one, Buckingham Palace then Parliament.\n\n🚴‍♂️ 11.20km > | 49m ⌃ | 23:10 | 145bpm | 155w\n\n\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/f6bbfb5e64.png\" width=\"600\" height=\"450\" alt=\"Palace of Westminster / Houses of Parliament on Rouvy\">\n",
 				"date_published": "2023-05-31T20:51:02+01:00",
 				"url": "https://lee-perry.co.uk/2023/05/31/riding-towards-the.html",
 				"tags": ["Cycling","Snips"]
@@ -19,7 +127,7 @@
 				"id": "http://leeperry.micro.blog/2023/05/30/a-nice-view.html",
 				
 				"content_html": "<p>A nice view over Canary Wharf from my trip to London last week.  Buildings visible include:</p>\n<ul>\n<li>1 Canada Square</li>\n<li>8 Canada Square (HSBC)</li>\n<li>33 Canada Square (Citi)</li>\n<li>20 Bank Street (Morgan Stanley)</li>\n<li>25 Bank Street (JP Morgan)</li>\n<li>40 Bank Street</li>\n</ul>\n<p>📷🗺️🏙️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "A nice view over Canary Wharf from my trip to London last week.  Buildings visible include:\n\n- 1 Canada Square\n- 8 Canada Square (HSBC)\n- 33 Canada Square (Citi)\n- 20 Bank Street (Morgan Stanley)\n- 25 Bank Street (JP Morgan)\n- 40 Bank Street\n\n📷🗺️🏙️\n\n<img src=\"uploads/2023/c840b3d1b5.jpeg\" width=\"600\" height=\"450\" alt=\"Canary Wharf from above\" />\n",
+				"content_text": "A nice view over Canary Wharf from my trip to London last week.  Buildings visible include:\n\n- 1 Canada Square\n- 8 Canada Square (HSBC)\n- 33 Canada Square (Citi)\n- 20 Bank Street (Morgan Stanley)\n- 25 Bank Street (JP Morgan)\n- 40 Bank Street\n\n📷🗺️🏙️\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/c840b3d1b5.jpeg\" width=\"600\" height=\"450\" alt=\"Canary Wharf from above\" />\n",
 				"date_published": "2023-05-30T21:40:08+01:00",
 				"url": "https://lee-perry.co.uk/2023/05/30/a-nice-view.html",
 				"tags": ["Snips"]
@@ -37,7 +145,7 @@
 				"id": "http://leeperry.micro.blog/2023/05/28/km-m-bpm.html",
 				
 				"content_html": "<p>🚴‍♂️ 19.35km &gt; | 233m ⌃ | 44:36 | 144bpm | 166w<!-- raw HTML omitted -->\n<strong>Panoche Hills ┃Scenic Views to Park Entrance (Ultra HD)</strong> <em>kinomap - thereynes</em></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🚴‍♂️ 19.35km > | 233m ⌃ | 44:36 | 144bpm | 166w<br>\r\n**Panoche Hills ┃Scenic Views to Park Entrance (Ultra HD)** _kinomap - thereynes_\r\n\r\n\r\n\r\n\r\n \r\n\r\n\n\n<img src=\"uploads/2023/f6efa2337a.png\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "🚴‍♂️ 19.35km > | 233m ⌃ | 44:36 | 144bpm | 166w<br>\r\n**Panoche Hills ┃Scenic Views to Park Entrance (Ultra HD)** _kinomap - thereynes_\r\n\r\n\r\n\r\n\r\n \r\n\r\n\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/f6efa2337a.png\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2023-05-28T12:00:54+01:00",
 				"url": "https://lee-perry.co.uk/2023/05/28/km-m-bpm.html",
 				"tags": ["Cycling","Snips"]
@@ -2116,7 +2224,7 @@
 				"id": "http://leeperry.micro.blog/2022/08/03/194746.html",
 				
 				"content_html": "<p>Boulder UK | Preston</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Boulder UK | Preston\n\n<img src=\"uploads/2023/5ddd0045df.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"content_text": "Boulder UK | Preston\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/4a4d173592.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
 				"date_published": "2022-08-03T20:47:46+01:00",
 				"url": "https://lee-perry.co.uk/2022/08/03/194746.html",
 				"tags": ["Bouldering","Snips"]
@@ -2548,7 +2656,7 @@
 				"id": "http://leeperry.micro.blog/2021/11/19/181609.html",
 				
 				"content_html": "<p>Two Steves</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Two Steves\n\n<img src=\"uploads/2023/c8315c6aad.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
+				"content_text": "Two Steves\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/5c4a7f964d.jpg\" width=\"600\" height=\"450\" alt=\"\">\n",
 				"date_published": "2021-11-19T19:16:09+01:00",
 				"url": "https://lee-perry.co.uk/2021/11/19/181609.html",
 				"tags": ["Canine Children","Steve McQueen","Stevie","Snips"]
@@ -2592,8 +2700,8 @@
 			{
 				"id": "http://leeperry.micro.blog/2021/10/17/how-to-play.html",
 				"title": "How to play Caesar III on MacOS with M1 silicon",
-				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
-				"content_text": "<!-- wp:paragraph -->\n<p>Caesar III does run on the latest generation of Macs.  This article walks through step by step how to install Caesar III ready to play.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>Prerequisites</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Before getting started there are a couple of things that we need.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>First of all we need a copy of Caesar III ready to install.  We recommend that you obtain the version that GOG have produced <a rel=\"noreferrer noopener\" href=\"https://www.gog.com/game/caesar_3\" target=\"_blank\">here</a>. It costs buttons, is DRM free, and we've tested it, it works!</li><li>Crossover from Dreamweavers, <a href=\"https://www.codeweavers.com/crossover\">here</a>.  Crossover comes with a cost - if you can find a working discount code, you should be able to pick it up for around £30.  We could not get Caesar III working on PlayonMac on our M1 MacBook Air, and we understand that Virtual Machine approaches (ie parallels) will not currently work (though we've not tested that. </li></ol>\n<!-- /wp:list -->\n\n<!-- wp:paragraph -->\n<p>Once you have Codeweavers and a copy of Caesar III, you are all set and ready to play Caesar III on your shiny new M1 Mac.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"/>\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p>First up, open up your Crossover install, and select the <em>Install a Windows Application</em> button at the bottom of the screen.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2254,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/b0e4ba9aa3.jpg\" alt=\"\" class=\"wp-image-2254\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Type the name of the application you want to install - in this case Caesar III.  Ignore the two star rating saying that the game will install but not run.  Thats mince.  Click continue.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2255,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/3a003588e7.jpg\" alt=\"\" class=\"wp-image-2255\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>On the next screen that loads we need to select the installer.  We are not going to use the default <em>Install via Steam</em> option, we've not tested that that.  Instead select <em>Choose Installer File</em>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2256,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/b59ca018bd.jpg\" alt=\"\" class=\"wp-image-2256\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Select the install executable, and then click continue.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2257,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/d5b09a6632.jpg\" alt=\"\" class=\"wp-image-2257\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Next we need to tell Crossover what type of Bottle to create.  Again, we do not want to create a Windows 7 64-Bit bottle.  Most old Windows games need to run in a 32 bit environment!  Choose the option for the Standard Windows XP Bottle - even though Crossover says it is incompatible!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2258,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/fc035a147d.jpg\" alt=\"\" class=\"wp-image-2258\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Finally click the install button to create the bottle, think of a bottle as a discreet virtual machine, and watch Crossover run its magic.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2259,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/772a7232e2.jpg\" alt=\"\" class=\"wp-image-2259\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:image {\"id\":2260,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/d7ff71dee0.jpg\" alt=\"\" class=\"wp-image-2260\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:image {\"id\":2261,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/ffaff76c04.jpg\" alt=\"\" class=\"wp-image-2261\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Click on the checkbox to accept the EULA agreement, and then click on the install button to begin the process of installing Caesar III on you M1 Mac.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2262,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/3a38bbfa0f.jpg\" alt=\"\" class=\"wp-image-2262\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:image {\"id\":2263,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/86f36fccc5.jpg\" alt=\"\" class=\"wp-image-2263\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>After watching the install progress you should arrive at the install complete screen - click exit from here rather than launch game, as Crossover still needs to finish off tidying up the bottle.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2264,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/55f5733801.jpg\" alt=\"\" class=\"wp-image-2264\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Wait until you also receive the installation complete screen within Crossover itself:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2265,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/e221b3b208.jpg\" alt=\"\" class=\"wp-image-2265\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>You should now see a Caesar III bottle on the left hand panel of Crossover - click on that, then click on the Caesar III icon within to load the game.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2266,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/1d20de615b.jpg\" alt=\"\" class=\"wp-image-2266\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Enjoy the opening credits as Caesar III loads:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2269,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/e00a121b03.jpg\" alt=\"\" class=\"wp-image-2269\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Click on the <em>Start new career</em> button and follow the prompts to get started playing Caesar III:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2270,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/cf53f5c0d0.jpg\" alt=\"\" class=\"wp-image-2270\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Finally, your game will load ready for you to begin your Governorial career on Caesar III - even though everything above says this will not work (it does)!  Enjoy the game!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":2273,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.uploads.micro.blog/97910/2023/91ed83193c.jpg\" alt=\"\" class=\"wp-image-2273\"/></figure>\n<!-- /wp:image -->\n",
+				"content_html": "<p>Video and step by step walkthrough - how to install Caesar III ready to play using Crossover on MacOS with M1/M2 chips.</p>\n<hr>\n<h3 id=\"video\">Video</h3>\n<!-- raw HTML omitted -->\n<h3 id=\"prerequisites\">Prerequisites</h3>\n<p>Before getting started there are a couple of things that we need.</p>\n<ol>\n<li>First of all we need a copy of Caesar III ready to install.  We recommend that you obtain the version that GOG have produced <a href=\"https://www.gog.com/game/caesar_3\">here</a>. It costs buttons, is DRM free, and we&rsquo;ve tested it, it works!</li>\n<li>Crossover from Dreamweavers, <a href=\"https://www.codeweavers.com/crossover\">here</a>.  Crossover comes with a cost - if you can find a working discount code, you should be able to pick it up for around £30.  We could not get Caesar III working on PlayonMac on our M1 MacBook Air, and we understand that Virtual Machine approaches (ie parallels) will not currently work (though we&rsquo;ve not tested that.</li>\n</ol>\n<p>Once you have Codeweavers and a copy of Caesar III, you are all set and ready to play Caesar III on your shiny new M1 Mac.</p>\n<hr>\n<p>First up, open up your Crossover install, and select the <strong>Install a Windows Application</strong> button at the bottom of the screen.</p>\n<!-- raw HTML omitted -->\n<p>Type the name of the application you want to install - in this case Caesar III.  Ignore the two star rating saying that the game will install but not run.  Thats mince.  Click continue.</p>\n<!-- raw HTML omitted -->\n<p>On the next screen that loads we need to select the installer.  We are not going to use the default <strong>Install via Steam</strong> option, we&rsquo;ve not tested that that.  Instead select <strong>Choose Installer File</strong>.</p>\n<!-- raw HTML omitted -->\n<p>Select the install executable, and then click continue.</p>\n<!-- raw HTML omitted -->\n<p>Next we need to tell Crossover what type of Bottle to create.  Again, we do not want to create a Windows 7 64-Bit bottle.  Most old Windows games need to run in a 32 bit environment!  Choose the option for the Standard Windows XP Bottle - even though Crossover says it is incompatible!</p>\n<!-- raw HTML omitted -->\n<p>Finally click the install button to create the bottle, think of a bottle as a discreet virtual machine, and watch Crossover run its magic.</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<p>Click on the checkbox to accept the EULA agreement, and then click on the install button to begin the process of installing Caesar III on you M1 Mac.</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<p>After watching the install progress you should arrive at the install complete screen - click exit from here rather than launch game, as Crossover still needs to finish off tidying up the bottle.</p>\n<!-- raw HTML omitted -->\n<p>Wait until you also receive the installation complete screen within Crossover itself:</p>\n<!-- raw HTML omitted -->\n<p>You should now see a Caesar III bottle on the left hand panel of Crossover - click on that, then click on the Caesar III icon within to load the game.</p>\n<!-- raw HTML omitted -->\n<p>Enjoy the opening credits as Caesar III loads:</p>\n<!-- raw HTML omitted -->\n<p>Click on the <strong>Start new career</strong> button and follow the prompts to get started playing Caesar III:</p>\n<!-- raw HTML omitted -->\n<p>Finally, your game will load ready for you to begin your Governorial career on Caesar III - even though everything above says this will not work (it does)!  Enjoy the game!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Video and step by step walkthrough - how to install Caesar III ready to play using Crossover on MacOS with M1/M2 chips.\n\n---\n\n### Video\n<div style=\"position: relative; padding-bottom: 62.5%; height: 0;\"><iframe src=\"https://www.loom.com/embed/481f4ad8b868464791455137d2e9e89a\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\"></iframe></div>\n\n### Prerequisites\nBefore getting started there are a couple of things that we need.\n\n1. First of all we need a copy of Caesar III ready to install.  We recommend that you obtain the version that GOG have produced [here](https://www.gog.com/game/caesar_3). It costs buttons, is DRM free, and we've tested it, it works!\n2. Crossover from Dreamweavers, [here](https://www.codeweavers.com/crossover).  Crossover comes with a cost - if you can find a working discount code, you should be able to pick it up for around £30.  We could not get Caesar III working on PlayonMac on our M1 MacBook Air, and we understand that Virtual Machine approaches (ie parallels) will not currently work (though we've not tested that.\n\nOnce you have Codeweavers and a copy of Caesar III, you are all set and ready to play Caesar III on your shiny new M1 Mac.\n\n---\n\nFirst up, open up your Crossover install, and select the **Install a Windows Application** button at the bottom of the screen.\n\n<img src=\"uploads/2023/b0e4ba9aa3.jpg\" alt=\"\" class=\"wp-image-2254\"/>\n\nType the name of the application you want to install - in this case Caesar III.  Ignore the two star rating saying that the game will install but not run.  Thats mince.  Click continue.\n\n<img src=\"uploads/2023/3a003588e7.jpg\" alt=\"\" class=\"wp-image-2255\"/>\n\nOn the next screen that loads we need to select the installer.  We are not going to use the default **Install via Steam** option, we've not tested that that.  Instead select **Choose Installer File**.\n\n<img src=\"uploads/2023/b59ca018bd.jpg\" alt=\"\" class=\"wp-image-2256\"/>\n\nSelect the install executable, and then click continue.\n\n<img src=\"uploads/2023/d5b09a6632.jpg\" alt=\"\" class=\"wp-image-2257\"/>\n\nNext we need to tell Crossover what type of Bottle to create.  Again, we do not want to create a Windows 7 64-Bit bottle.  Most old Windows games need to run in a 32 bit environment!  Choose the option for the Standard Windows XP Bottle - even though Crossover says it is incompatible!\n\n<img src=\"uploads/2023/fc035a147d.jpg\" alt=\"\" class=\"wp-image-2258\"/>\n\nFinally click the install button to create the bottle, think of a bottle as a discreet virtual machine, and watch Crossover run its magic.\n\n<img src=\"uploads/2023/772a7232e2.jpg\" alt=\"\" class=\"wp-image-2259\"/>\n\n<img src=\"uploads/2023/d7ff71dee0.jpg\" alt=\"\" class=\"wp-image-2260\"/>\n\n<img src=\"uploads/2023/ffaff76c04.jpg\" alt=\"\" class=\"wp-image-2261\"/>\n\nClick on the checkbox to accept the EULA agreement, and then click on the install button to begin the process of installing Caesar III on you M1 Mac.\n\n\n<img src=\"uploads/2023/3a38bbfa0f.jpg\" alt=\"\" class=\"wp-image-2262\"/>\n\n<img src=\"uploads/2023/86f36fccc5.jpg\" alt=\"\" class=\"wp-image-2263\"/>\n\nAfter watching the install progress you should arrive at the install complete screen - click exit from here rather than launch game, as Crossover still needs to finish off tidying up the bottle.\n\n<img src=\"uploads/2023/55f5733801.jpg\" alt=\"\" class=\"wp-image-2264\"/>\n\nWait until you also receive the installation complete screen within Crossover itself:\n\n<img src=\"uploads/2023/e221b3b208.jpg\" alt=\"\" class=\"wp-image-2265\"/>\n\nYou should now see a Caesar III bottle on the left hand panel of Crossover - click on that, then click on the Caesar III icon within to load the game.\n\n<img src=\"uploads/2023/1d20de615b.jpg\" alt=\"\" class=\"wp-image-2266\"/>\n\nEnjoy the opening credits as Caesar III loads:\n\n<img src=\"uploads/2023/e00a121b03.jpg\" alt=\"\" class=\"wp-image-2269\"/>\n\nClick on the **Start new career** button and follow the prompts to get started playing Caesar III:\n\n<img src=\"uploads/2023/cf53f5c0d0.jpg\" alt=\"\" class=\"wp-image-2270\"/>\n\nFinally, your game will load ready for you to begin your Governorial career on Caesar III - even though everything above says this will not work (it does)!  Enjoy the game!\n\n<img src=\"uploads/2023/91ed83193c.jpg\" alt=\"\" class=\"wp-image-2273\"/>\n",
 				"date_published": "2021-10-17T22:25:08+01:00",
 				"url": "https://lee-perry.co.uk/2021/10/17/how-to-play.html",
 				"tags": ["Gaming","Caesar III"]
@@ -3883,7 +3991,7 @@
 				"content_text": "Couldnae resist this top from #fetcheveryone and #ronhill - aligns with my usual outlook pretty well!\n\n<div class=\"img-gallery\">\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/e63760f336.jpg\" >}} \n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/2e4ae61f47.jpg\" >}} \n</div>\n",
 				"date_published": "2020-06-06T09:55:12+01:00",
 				"url": "https://lee-perry.co.uk/2020/06/06/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive","Lee"]
+				"tags": ["Snips","Facebook Archive","Me"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2020/05/11/facebook-post-t.html",
@@ -5652,8 +5760,8 @@
 			{
 				"id": "http://leeperry.micro.blog/2017/09/16/how-to-install.html",
 				"title": "How to Install Championship Manager 03/04 (CM03/04) on MacOS/OSX",
-				"content_html": "<p>Installing Championship Manager 03/04 on MacOS/OSX using the <!-- raw HTML omitted -->PlayonMac<!-- raw HTML omitted --> WINE Windows emulator.</p>\n<p><a href=\"https://www.youtube.com/watch?v=fSgcGx1Avdc\">www.youtube.com/watch</a></p>\n",
-				"content_text": "Installing Championship Manager 03/04 on MacOS/OSX using the <a href=\"https://www.playonmac.com/en/\">PlayonMac</a> WINE Windows emulator.\n\n[www.youtube.com/watch](https://www.youtube.com/watch?v=fSgcGx1Avdc)\n",
+				"content_html": "<p>Installing Championship Manager 03/04 on MacOS/OSX using the <!-- raw HTML omitted -->PlayonMac<!-- raw HTML omitted --> WINE Windows emulator.</p>\n<p><strong><a href=\"https://lee-perry.co.uk/2023/06/05/install-and-play.html\">See updated instructions - with no CD-ROM fix!!!</a></strong></p>\n<p><a href=\"https://www.youtube.com/watch?v=fSgcGx1Avdc\">www.youtube.com/watch</a></p>\n",
+				"content_text": "Installing Championship Manager 03/04 on MacOS/OSX using the <a href=\"https://www.playonmac.com/en/\">PlayonMac</a> WINE Windows emulator.\n\n**[See updated instructions - with no CD-ROM fix!!!](https://lee-perry.co.uk/2023/06/05/install-and-play.html)**\n\n[www.youtube.com/watch](https://www.youtube.com/watch?v=fSgcGx1Avdc)\n",
 				"date_published": "2017-09-16T16:22:01+01:00",
 				"url": "https://lee-perry.co.uk/2017/09/16/how-to-install.html",
 				"tags": ["Gaming"]
@@ -5891,15 +5999,6 @@
 				"date_published": "2016-12-11T16:20:52+01:00",
 				"url": "https://lee-perry.co.uk/2016/12/11/162052.html",
 				"tags": ["bayLee","Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2016/12/09/facebook-post-t.html",
-				"title": "Facebook Post: 2016-12-09T10:00:25",
-				"content_html": "<p>[gallery size=full ids=&lsquo;3366&rsquo; columns=1]</p>\n<p>Oh no.</p>\n<p>Gym plans scuppered for a least two days of the &lsquo;holiday&rsquo;.  Might have to use the outdoor gym if asthma will hold up&hellip;.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[gallery size=full ids='3366' columns=1]\n\nOh no.\n\nGym plans scuppered for a least two days of the 'holiday'.  Might have to use the outdoor gym if asthma will hold up....\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/150031e32e.jpg\" /> \n",
-				"date_published": "2016-12-09T11:00:25+01:00",
-				"url": "https://lee-perry.co.uk/2016/12/09/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/12/04/facebook-post-t.html",
@@ -6433,15 +6532,6 @@
 				"tags": ["Canine Children","Steve McQueen","Snips","Facebook Archive"]
 			},
 			{
-				"id": "http://leeperry.micro.blog/2016/09/14/facebook-post-t.html",
-				"title": "Facebook Post: 2016-09-14T21:40:40",
-				"content_html": "<p>Strange place to run Doncaster.  After the stone skimming last week, there was the 8 year old old in a Gers top eyeballing me tonight.  He seemed rather bemused by the &lsquo;Hoops&rsquo; he got as I ran past. Hehe :)</p>\n",
-				"content_text": "Strange place to run Doncaster.  After the stone skimming last week, there was the 8 year old old in a Gers top eyeballing me tonight.  He seemed rather bemused by the 'Hoops' he got as I ran past. Hehe :)\n",
-				"date_published": "2016-09-14T21:40:40+01:00",
-				"url": "https://lee-perry.co.uk/2016/09/14/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
 				"id": "http://leeperry.micro.blog/2016/08/30/facebook-post-t.html",
 				
 				"content_html": "<p>Setting 5km PR a year ago. Terrible year since, but the seagulls are now on the horizon.</p>\n<p><!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --></p>\n",
@@ -6524,66 +6614,66 @@
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/05/29/191958.html",
-				"title": "Facebook Post: 2016-05-29T19:19:58",
-				"content_html": "<p>[gallery ids=&lsquo;3624,3625,3626,3627,3628,3629&rsquo;]</p>\n<p>The Iberian canine palace @  Womble HQ</p>\n<p><!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --></p>\n",
-				"content_text": "[gallery ids='3624,3625,3626,3627,3628,3629']\n\nThe Iberian canine palace @  Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/a60728ee27.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/03d49c5b72.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/836436c42f.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/8e86dedbc8.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/015ba57c2c.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/7ff06018fc.jpg\" /> \n",
+				
+				"content_html": "<p>The Iberian canine palace @  Womble HQ</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "The Iberian canine palace @  Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/a60728ee27.jpg\" /> \n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/03d49c5b72.jpg\" /> \n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/836436c42f.jpg\" /> \n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/8e86dedbc8.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/015ba57c2c.jpg\" /> \n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/7ff06018fc.jpg\" /> \n",
 				"date_published": "2016-05-29T19:19:58+01:00",
 				"url": "https://lee-perry.co.uk/2016/05/29/191958.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Steve McQueen","Mustang","Rocco","Snips","Facebook Archive"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/05/26/facebook-post-t.html",
-				"title": "Facebook Post: 2016-05-26T21:20:27",
-				"content_html": "<p>[gallery size=full ids=&lsquo;3641&rsquo; columns=1]</p>\n<p>I don&rsquo;t actually like you, but I&rsquo;ll hug your leg anyway Womble HQ</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[gallery size=full ids='3641' columns=1]\n\nI don't actually like you, but I'll hug your leg anyway Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/c3c563a2a7.jpg\" /> \n",
+				
+				"content_html": "<p>I don&rsquo;t actually like you, but I&rsquo;ll hug your leg anyway Womble HQ</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I don't actually like you, but I'll hug your leg anyway Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/c3c563a2a7.jpg\" /> \n",
 				"date_published": "2016-05-26T21:20:27+01:00",
 				"url": "https://lee-perry.co.uk/2016/05/26/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Canine Children","Snips","Facebook Archive","Buster"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/05/25/facebook-post-t.html",
-				"title": "Facebook Post: 2016-05-25T21:09:48",
-				"content_html": "<p>[gallery ids=&lsquo;3645,3646,3647&rsquo;]</p>\n<p>Buster disgusted at absence of Eastenders from the TV for another 8 days Womble HQ</p>\n<p><!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --></p>\n",
-				"content_text": "[gallery ids='3645,3646,3647']\n\nBuster disgusted at absence of Eastenders from the TV for another 8 days Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/5e6d11271d.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/3f3c4b2203.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/c3f665e0a4.jpg\" /> \n",
+				
+				"content_html": "<p>Buster disgusted at absence of Eastenders from the TV for another 8 days Womble HQ</p>\n<p><!-- raw HTML omitted --> <!-- raw HTML omitted --> <!-- raw HTML omitted --></p>\n",
+				"content_text": "Buster disgusted at absence of Eastenders from the TV for another 8 days Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/5e6d11271d.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/3f3c4b2203.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/c3f665e0a4.jpg\" /> \n",
 				"date_published": "2016-05-25T21:09:48+01:00",
 				"url": "https://lee-perry.co.uk/2016/05/25/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Canine Children","Snips","Facebook Archive","Buster"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/05/24/165627.html",
-				"title": "Facebook Post: 2016-05-24T16:56:27",
-				"content_html": "<p>[gallery size=full ids=&lsquo;3651&rsquo; columns=1]</p>\n<p>BBQ adaptations</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[gallery size=full ids='3651' columns=1]\n\nBBQ adaptations\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/abdefa000e.jpg\" /> \n",
+				
+				"content_html": "<p>BBQ adaptations</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "BBQ adaptations\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/abdefa000e.jpg\" /> \n",
 				"date_published": "2016-05-24T16:56:27+01:00",
 				"url": "https://lee-perry.co.uk/2016/05/24/165627.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Snips","Facebook Archive","Me"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/05/24/112327.html",
-				"title": "Facebook Post: 2016-05-24T11:23:27",
-				"content_html": "<p>[gallery ids=&lsquo;3656,3657&rsquo;]</p>\n<p>Always wanted a parrot Womble HQ</p>\n<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>\n",
-				"content_text": "[gallery ids='3656,3657']\n\nAlways wanted a parrot Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/5020a95028.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/4a98a32d4a.jpg\" /> \n",
+				
+				"content_html": "<p>Always wanted a parrot Womble HQ</p>\n<p><!-- raw HTML omitted --> <!-- raw HTML omitted --></p>\n",
+				"content_text": "Always wanted a parrot Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/5020a95028.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/4a98a32d4a.jpg\" /> \n",
 				"date_published": "2016-05-24T11:23:27+01:00",
 				"url": "https://lee-perry.co.uk/2016/05/24/112327.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Canine Children","Snips","Facebook Archive","Buster"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/05/23/facebook-post-t.html",
-				"title": "Facebook Post: 2016-05-23T22:18:03",
-				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<p>Big hugs from such a little man Womble HQ</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "<!-- wp:jetpack/map {\"points\":[{\"coordinates\":{\"longitude\":-0.688683,\"latitude\":38.3734},\"title\":\"Orito, Valenciana, Spain\"}],\"zoom\":8,\"mapCenter\":{\"lng\":-0.688683,\"lat\":38.3734}} -->\n<div class=\"wp-block-jetpack-map\" data-map-style=\"default\" data-map-details=\"true\" data-points=\"[{&quot;coordinates&quot;:{&quot;longitude&quot;:-0.688683,&quot;latitude&quot;:38.3734},&quot;title&quot;:&quot;Orito, Valenciana, Spain&quot;}]\" data-zoom=\"8\" data-map-center=\"{&quot;lng&quot;:-0.688683,&quot;lat&quot;:38.3734}\" data-marker-color=\"red\" data-show-fullscreen-button=\"true\"><ul><li><a href=\"https://www.google.com/maps/search/?api=1&#038;query=38.3734,-0.688683\">Orito, Valenciana, Spain</a></li></ul></div>\n<!-- /wp:jetpack/map -->[gallery size=full ids='3659' columns=1]\n\nBig hugs from such a little man Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/3c1abdb04a.jpg\" /> \n",
+				
+				"content_html": "<p>Big hugs from such a little man Womble HQ</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Big hugs from such a little man Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/3c1abdb04a.jpg\" /> \n",
 				"date_published": "2016-05-23T22:18:03+01:00",
 				"url": "https://lee-perry.co.uk/2016/05/23/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Canine Children","Snips","Facebook Archive","Buster"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/05/23/195746.html",
-				"title": "Facebook Post: 2016-05-23T19:57:46",
-				"content_html": "<p>[gallery size=full ids=&lsquo;3661&rsquo; columns=1]</p>\n<p>&ldquo;I&rsquo;m not getting off the table until you put Eastenders on like my parents do!&rdquo; Womble HQ</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[gallery size=full ids='3661' columns=1]\n\n\"I'm not getting off the table until you put Eastenders on like my parents do!\" Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/4db439bb21.jpg\" /> \n",
+				
+				"content_html": "<p>&ldquo;I&rsquo;m not getting off the table until you put Eastenders on like my parents do!&rdquo; Womble HQ</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "\"I'm not getting off the table until you put Eastenders on like my parents do!\" Womble HQ\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/4db439bb21.jpg\" /> \n",
 				"date_published": "2016-05-23T19:57:46+01:00",
 				"url": "https://lee-perry.co.uk/2016/05/23/195746.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Canine Children","Snips","Facebook Archive","Buster"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/05/23/194957.html",
@@ -6736,7 +6826,7 @@
 				"content_text": "I need a haircut? whit ye on aboot?\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/c7a99347ac.jpg\" /> <img src=\"https://cdn.uploads.micro.blog/97910/2023/78e9b71a4c.jpg\" /> \n",
 				"date_published": "2016-01-18T06:21:01+01:00",
 				"url": "https://lee-perry.co.uk/2016/01/18/062101.html",
-				"tags": ["Snips","Facebook Archive","Lee"]
+				"tags": ["Snips","Facebook Archive","Me"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2016/01/10/facebook-post-t.html",
@@ -6793,15 +6883,6 @@
 				"tags": ["Development","Snips","Facebook Archive"]
 			},
 			{
-				"id": "http://leeperry.micro.blog/2015/11/22/185437.html",
-				"title": "Facebook Post: 2015-11-22T17:54:37",
-				"content_html": "<p>Geek wordiness:</p>\n<p><a href=\"https://lee-perry.co.uk/bonfire-reverse-a-string/\">lee-perry.co.uk/bonfire-r&hellip;</a></p>\n",
-				"content_text": "Geek wordiness:\n\n\n[lee-perry.co.uk/bonfire-r...](https://lee-perry.co.uk/bonfire-reverse-a-string/)\n",
-				"date_published": "2015-11-22T18:54:37+01:00",
-				"url": "https://lee-perry.co.uk/2015/11/22/185437.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
 				"id": "http://leeperry.micro.blog/2015/11/22/163022.html",
 				
 				"content_html": "<p>A little bit proud of this piece of JavaScript.  There are better ways of doing the same thing, but this was beating me just a couple of weeks ago</p>\n<!-- raw HTML omitted -->\n",
@@ -6809,24 +6890,6 @@
 				"date_published": "2015-11-22T16:30:22+01:00",
 				"url": "https://lee-perry.co.uk/2015/11/22/163022.html",
 				"tags": ["Development","Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/11/22/092738.html",
-				"title": "Facebook Post: 2015-11-22T08:27:38",
-				"content_html": "<p>Probably shouldn&rsquo;t have let the boys loose with a little mackerel each. Smells like a fishmongers in here&hellip;</p>\n",
-				"content_text": "Probably shouldn't have let the boys loose with a little mackerel each. Smells like a fishmongers in here...\n",
-				"date_published": "2015-11-22T09:27:38+01:00",
-				"url": "https://lee-perry.co.uk/2015/11/22/092738.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/11/22/facebook-post-t.html",
-				"title": "Facebook Post: 2015-11-22T07:32:15",
-				"content_html": "<p>-7°C outside, all walked and the fire is on.  Time for #CodeSchool</p>\n",
-				"content_text": "-7°C outside, all walked and the fire is on.  Time for #CodeSchool\n",
-				"date_published": "2015-11-22T08:32:15+01:00",
-				"url": "https://lee-perry.co.uk/2015/11/22/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/11/21/100851.html",
@@ -7000,57 +7063,12 @@
 				"tags": ["Snips","Facebook Archive"]
 			},
 			{
-				"id": "http://leeperry.micro.blog/2015/09/17/104532.html",
-				"title": "Facebook Post: 2015-09-17T10:45:32",
-				"content_html": "<p>Seriously. I&rsquo;ve only ever known rain like this in the tropics during rainy season&hellip; Norwegian &ldquo;summer&rdquo; really is quite something</p>\n",
-				"content_text": "Seriously. I've only ever known rain like this in the tropics during rainy season... Norwegian \"summer\" really is quite something\n",
-				"date_published": "2015-09-17T10:45:32+01:00",
-				"url": "https://lee-perry.co.uk/2015/09/17/104532.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
 				"id": "http://leeperry.micro.blog/2015/09/15/facebook-post-t.html",
 				
 				"content_html": "<p>Kongsburg</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Kongsburg\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/05c4102fce.jpg\" /> \n",
 				"date_published": "2015-09-15T16:54:56+01:00",
 				"url": "https://lee-perry.co.uk/2015/09/15/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/09/15/140729.html",
-				"title": "Facebook Post: 2015-09-15T14:07:29",
-				"content_html": "<p>X-rays seem ok. Poor wee man likely has a nasty infection #SteveWatch</p>\n",
-				"content_text": "X-rays seem ok. Poor wee man likely has a nasty infection #SteveWatch\n",
-				"date_published": "2015-09-15T14:07:29+01:00",
-				"url": "https://lee-perry.co.uk/2015/09/15/140729.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/09/15/133807.html",
-				"title": "Facebook Post: 2015-09-15T13:38:07",
-				"content_html": "<p>Last night was the only tough night so far of #gosoberoctober, knowing that Steve needed to go back to the vet today. Survived though. Yes, I know it&rsquo;s still September to most&hellip;</p>\n",
-				"content_text": "Last night was the only tough night so far of #gosoberoctober, knowing that Steve needed to go back to the vet today. Survived though. Yes, I know it's still September to most...\n",
-				"date_published": "2015-09-15T13:38:07+01:00",
-				"url": "https://lee-perry.co.uk/2015/09/15/133807.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/09/15/130354.html",
-				"title": "Facebook Post: 2015-09-15T13:03:54",
-				"content_html": "<p>Not entirely sure where I went wrong in a previous life #karma</p>\n",
-				"content_text": "Not entirely sure where I went wrong in a previous life #karma\n",
-				"date_published": "2015-09-15T13:03:54+01:00",
-				"url": "https://lee-perry.co.uk/2015/09/15/130354.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/09/15/124034.html",
-				"title": "Facebook Post: 2015-09-15T12:40:34",
-				"content_html": "<p>First update from his consultant is inconclusive. More tests this afternoon. #SteveWatch :-(</p>\n",
-				"content_text": "First update from his consultant is inconclusive. More tests this afternoon. #SteveWatch :-(\n",
-				"date_published": "2015-09-15T12:40:34+01:00",
-				"url": "https://lee-perry.co.uk/2015/09/15/124034.html",
 				"tags": ["Snips","Facebook Archive"]
 			},
 			{
@@ -7261,22 +7279,13 @@
 				"tags": ["Exploring","Snips","Facebook Archive"]
 			},
 			{
-				"id": "http://leeperry.micro.blog/2015/08/18/183122.html",
-				"title": "Facebook Post: 2015-08-18T18:31:22",
-				"content_html": "<p>As you get older you realise that nothing lasts forever. It&rsquo;s not depressing, but it does make moments more intense.</p>\n<p>Victoria Legrand</p>\n",
-				"content_text": "As you get older you realise that nothing lasts forever. It's not depressing, but it does make moments more intense.\n\nVictoria Legrand\n",
-				"date_published": "2015-08-18T18:31:22+01:00",
-				"url": "https://lee-perry.co.uk/2015/08/18/183122.html",
-				"tags": ["Snips","Facebook Archive"]
-			},
-			{
 				"id": "http://leeperry.micro.blog/2015/08/18/104804.html",
 				
 				"content_html": "<p>Settling down to right some code in geriatrics corner&hellip;</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Settling down to right some code in geriatrics corner...\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/9022bcc1d0.jpg\" /> \n",
 				"date_published": "2015-08-18T10:48:04+01:00",
 				"url": "https://lee-perry.co.uk/2015/08/18/104804.html",
-				"tags": ["Development","Snips","Facebook Archive","Lee"]
+				"tags": ["Development","Snips","Facebook Archive","Me"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/08/18/084535.html",
@@ -7447,7 +7456,7 @@
 				"content_text": "Family photo...\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/a79d19121d.jpg\" /> \n",
 				"date_published": "2015-07-18T18:57:29+01:00",
 				"url": "https://lee-perry.co.uk/2015/07/18/facebook-post-t.html",
-				"tags": ["Vickie","Snips","Facebook Archive","Lee"]
+				"tags": ["Vickie","Snips","Facebook Archive","Me"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/07/17/facebook-post-t.html",
@@ -7460,18 +7469,18 @@
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/07/15/facebook-post-t.html",
-				"title": "Facebook Post: 2015-07-15T21:57:12",
-				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<p>Sleepy Stevie puppy</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "<!-- wp:jetpack/map {\"points\":[{\"coordinates\":{\"longitude\":-3.574,\"latitude\":56.115},\"title\":\"Saline, Fife\"}],\"zoom\":8,\"mapCenter\":{\"lng\":-3.574,\"lat\":56.115}} -->\n<div class=\"wp-block-jetpack-map\" data-map-style=\"default\" data-map-details=\"true\" data-points=\"[{&quot;coordinates&quot;:{&quot;longitude&quot;:-3.574,&quot;latitude&quot;:56.115},&quot;title&quot;:&quot;Saline, Fife&quot;}]\" data-zoom=\"8\" data-map-center=\"{&quot;lng&quot;:-3.574,&quot;lat&quot;:56.115}\" data-marker-color=\"red\" data-show-fullscreen-button=\"true\"><ul><li><a href=\"https://www.google.com/maps/search/?api=1&#038;query=56.115,-3.574\">Saline, Fife</a></li></ul></div>\n<!-- /wp:jetpack/map -->[gallery size=full ids='4360' columns=1]\n\nSleepy Stevie puppy\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/b4c02bba06.jpg\" /> \n",
+				
+				"content_html": "<p>Sleepy Stevie puppy</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Sleepy Stevie puppy\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/b4c02bba06.jpg\" /> \n",
 				"date_published": "2015-07-15T21:57:12+01:00",
 				"url": "https://lee-perry.co.uk/2015/07/15/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Canine Children","Steve McQueen","Snips","Facebook Archive"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/07/14/100324.html",
-				"title": "Facebook Post: 2015-07-14T10:03:24",
-				"content_html": "<p>[gallery size=full ids=&lsquo;4364&rsquo; columns=1]</p>\n<p>Saving on the heat chamber #valenciana #training #cooking #tritalk</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "[gallery size=full ids='4364' columns=1]\n\nSaving on the heat chamber #valenciana #training #cooking #tritalk\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/78b4550908.jpg\" /> \n",
+				
+				"content_html": "<p>Saving on the heat chamber #valenciana #training #cooking #tritalk</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Saving on the heat chamber #valenciana #training #cooking #tritalk\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/78b4550908.jpg\" /> \n",
 				"date_published": "2015-07-14T10:03:24+01:00",
 				"url": "https://lee-perry.co.uk/2015/07/14/100324.html",
 				"tags": ["Snips","Facebook Archive"]
@@ -7591,7 +7600,7 @@
 				"content_text": "Off to get wet...\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/27f935da69.jpg\" /> \n",
 				"date_published": "2015-05-07T11:11:37+01:00",
 				"url": "https://lee-perry.co.uk/2015/05/07/111137.html",
-				"tags": ["Snips","Facebook Archive","Lee"]
+				"tags": ["Snips","Facebook Archive","Me"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/05/07/094829.html",
@@ -7667,7 +7676,7 @@
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/03/12/075743.html",
-				"title": "Facebook Post: 2015-03-12T06:57:43",
+				
 				"content_html": "<p>Rocco&rsquo;s histology was as good as it could have been.  Everything crossed for Steve&rsquo;s&hellip; One more week</p>\n",
 				"content_text": "Rocco's histology was as good as it could have been.  Everything crossed for Steve's... One more week\n",
 				"date_published": "2015-03-12T07:57:43+01:00",
@@ -7676,12 +7685,12 @@
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/03/11/082945.html",
-				"title": "Facebook Post: 2015-03-11T07:29:45",
+				
 				"content_html": "<p>That&rsquo;s my little wolf child away for his stitches out. This time next week my little monkey boy has his stitches out, and then return to training and normality.  Have been putting some of the time into developing new business streams&hellip; see where they lead.</p>\n",
 				"content_text": "That's my little wolf child away for his stitches out. This time next week my little monkey boy has his stitches out, and then return to training and normality.  Have been putting some of the time into developing new business streams... see where they lead.\n",
 				"date_published": "2015-03-11T08:29:45+01:00",
 				"url": "https://lee-perry.co.uk/2015/03/11/082945.html",
-				"tags": ["Snips","Facebook Archive"]
+				"tags": ["Canine Children","Rocco","Snips","Facebook Archive"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/03/10/facebook-post-t.html",
@@ -7700,15 +7709,6 @@
 				"date_published": "2015-03-06T07:41:17+01:00",
 				"url": "https://lee-perry.co.uk/2015/03/06/074117.html",
 				"tags": ["Canine Children","Steve McQueen","Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/03/06/035514.html",
-				"title": "Facebook Post: 2015-03-06T02:55:14",
-				"content_html": "<p>A very painful set of stitches, but settling down now #SteveWatch</p>\n",
-				"content_text": "A very painful set of stitches, but settling down now #SteveWatch\n",
-				"date_published": "2015-03-06T03:55:14+01:00",
-				"url": "https://lee-perry.co.uk/2015/03/06/035514.html",
-				"tags": ["Snips","Facebook Archive"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/03/05/facebook-post-t.html",
@@ -7736,15 +7736,6 @@
 				"date_published": "2015-03-05T10:51:15+01:00",
 				"url": "https://lee-perry.co.uk/2015/03/05/105115.html",
 				"tags": ["Canine Children","Steve McQueen","Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/03/03/163328.html",
-				"title": "Facebook Post: 2015-03-03T15:33:28",
-				"content_html": "<p>Apparently I ran my second fastest mile split today&hellip; Still didn&rsquo;t make my train home though</p>\n",
-				"content_text": "Apparently I ran my second fastest mile split today... Still didn't make my train home though\n",
-				"date_published": "2015-03-03T16:33:28+01:00",
-				"url": "https://lee-perry.co.uk/2015/03/03/163328.html",
-				"tags": ["Snips","Facebook Archive"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/03/02/211131.html",
@@ -7781,15 +7772,6 @@
 				"date_published": "2015-02-07T10:12:34+01:00",
 				"url": "https://lee-perry.co.uk/2015/02/07/facebook-post-t.html",
 				"tags": ["Canine Children","Vickie","Steve McQueen","Snips","Facebook Archive"]
-			},
-			{
-				"id": "http://leeperry.micro.blog/2015/02/06/facebook-post-t.html",
-				"title": "Facebook Post: 2015-02-06T14:09:23",
-				"content_html": "<p>Was just researching Norwegian Kenneling prices.</p>\n<p>I thought that they were about the same, until I realised that they were per dog.  A bit like the day I realised that those not very expensive London rental prices were per week not per month.</p>\n<p>Doh!</p>\n",
-				"content_text": "Was just researching Norwegian Kenneling prices.\n\nI thought that they were about the same, until I realised that they were per dog.  A bit like the day I realised that those not very expensive London rental prices were per week not per month.\n\nDoh!\n",
-				"date_published": "2015-02-06T15:09:23+01:00",
-				"url": "https://lee-perry.co.uk/2015/02/06/facebook-post-t.html",
-				"tags": ["Snips","Facebook Archive"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2015/01/22/facebook-post-t.html",
@@ -8446,7 +8428,7 @@
 				"content_text": "Loch Lomond | Fife\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/da8c4c16b6.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2014-07-28T08:58:45+01:00",
 				"url": "https://lee-perry.co.uk/2014/07/28/075845.html",
-				"tags": ["Running","Snips","Lee"]
+				"tags": ["Running","Snips","Me"]
 			},
 			{
 				"id": "http://leeperry.micro.blog/2014/07/28/075748.html",
@@ -11440,7 +11422,7 @@
 				"id": "http://leeperry.micro.blog/2005/05/29/a-berwyn-circuit.html",
 				"title": "A Berwyn circuit from Llangynog - Moel Sych and Y Gribin",
 				"content_html": "<p>This article looks back over a circuit in the Berwyn Mountains, starting and ending in Llangynog, taking in Moel Sych and y Gribin on route.</p>\n<hr>\n<p>Went out today for a walk with Mike, Emily, their dog Jess, and Nigel. The weather was pretty good all day, although it was quite hot at times. Enjoyed myself thoroughly all day, although if I am honest my legs were a little tired after my exertions the previous week in Scotland.</p>\n<p>After suffering a moment of temporary misplacement on route we arrived at Llangynog at about 10:30 and set off up the ridge of Y Gribin with great expectation. Ascending rapidly to the ridge we ambled along for a period of time over the tops of Craig Llywn-Armon, Pen Cerrig, Waen Bwlchymynydd and Hafod Hir before descending to the Militir Gerrig pass.</p>\n<p>We paused for some time at the pass to each lunch before proceeding up the duckboard path to the point where I had joined it with Paul on our visit in <a href=\"https://lee-perry.co.uk/2004/12/28/a-circuit-on.html\">December</a>. We proceeded to the Cairn on Moel Sych from where we took in the views to the surrounding Arenigs, Arans, Rhinogs, and Cadair Idris. The view over Cadair Berwyn was quite nice, unlike on my last visit.</p>\n<p>Not so concerned about the prospect of ice today, we proceeded down the steep path alongside Llyn Lluncaws, and to Pistyll Rhaeadr. The latter being complicated by our position on t&rsquo;other side of the valley. Following the track along, it attains the Pistyll Rhaeadr Road about half a mile past the falls, which we walked back along in order to obtain a pot of tea!</p>\n<p>Crossing the bridge by the falls, we proceeded along the path above the valley, taking a short cut onto the old quarry road, and then up onto the bwlch below Y Clogydd and down to Llangynog. Before returning to the midlands we dined in the Tanat Valley Inn, enjoying fine cuisine.</p>\n<p><strong>Date:</strong> 29 May 2005<!-- raw HTML omitted -->\n<strong>Weather:</strong> Bright to sunny<!-- raw HTML omitted -->\n<strong>Accompanied by:</strong> Mike, Emily, Jess and Nigel<!-- raw HTML omitted -->\n<strong>Distance:</strong> c.18 miles<!-- raw HTML omitted -->\n<strong>Ascent:</strong> c. 1200m<!-- raw HTML omitted -->\n<strong>Total Time:</strong> 7hr30m<!-- raw HTML omitted -->\n<strong>Estimated &lsquo;Dead&rsquo; Time:</strong> 1hr<!-- raw HTML omitted --></p>\n<h2 id=\"summits-attained\">Summits Attained:</h2>\n<p>0827m Moel Sych<!-- raw HTML omitted -->\n0545m Hafod Hir<!-- raw HTML omitted -->\n0541m Waen Bwlchymynydd<!-- raw HTML omitted -->\n0495m Pen Cerrig<!-- raw HTML omitted -->\n0451m Craig Llwyn-Armon</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
-				"content_text": "This article looks back over a circuit in the Berwyn Mountains, starting and ending in Llangynog, taking in Moel Sych and y Gribin on route.\n\n---\n\nWent out today for a walk with Mike, Emily, their dog Jess, and Nigel. The weather was pretty good all day, although it was quite hot at times. Enjoyed myself thoroughly all day, although if I am honest my legs were a little tired after my exertions the previous week in Scotland.\n\nAfter suffering a moment of temporary misplacement on route we arrived at Llangynog at about 10:30 and set off up the ridge of Y Gribin with great expectation. Ascending rapidly to the ridge we ambled along for a period of time over the tops of Craig Llywn-Armon, Pen Cerrig, Waen Bwlchymynydd and Hafod Hir before descending to the Militir Gerrig pass.\n\nWe paused for some time at the pass to each lunch before proceeding up the duckboard path to the point where I had joined it with Paul on our visit in [December](https://lee-perry.co.uk/2004/12/28/a-circuit-on.html). We proceeded to the Cairn on Moel Sych from where we took in the views to the surrounding Arenigs, Arans, Rhinogs, and Cadair Idris. The view over Cadair Berwyn was quite nice, unlike on my last visit.\n\nNot so concerned about the prospect of ice today, we proceeded down the steep path alongside Llyn Lluncaws, and to Pistyll Rhaeadr. The latter being complicated by our position on t'other side of the valley. Following the track along, it attains the Pistyll Rhaeadr Road about half a mile past the falls, which we walked back along in order to obtain a pot of tea!\n\nCrossing the bridge by the falls, we proceeded along the path above the valley, taking a short cut onto the old quarry road, and then up onto the bwlch below Y Clogydd and down to Llangynog. Before returning to the midlands we dined in the Tanat Valley Inn, enjoying fine cuisine.\n\n**Date:** 29 May 2005<br>\n**Weather:** Bright to sunny<br>\n**Accompanied by:** Mike, Emily, Jess and Nigel<br>\n**Distance:** c.18 miles<br>\n**Ascent:** c. 1200m<br>\n**Total Time:** 7hr30m<br>\n**Estimated 'Dead' Time:** 1hr<br>\n\n## Summits Attained:\n0827m Moel Sych<br>\n0545m Hafod Hir<br>\n0541m Waen Bwlchymynydd<br>\n0495m Pen Cerrig<br>\n0451m Craig Llwyn-Armon\n\n\n\n<div class=\"img-gallery\">\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/58902956be.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/8c909fc898.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/d9e16fab21.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/042a73394b.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/97ba296934.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/9117819faa.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/4c0d0ccf3c.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/9cb1c116c9.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/960a7acfd6.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/f27443d883.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/fd2e16fc5a.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/38fc83b5ab.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/82e3fb82fa.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/aad3763783.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/eca64855ce.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/af12b72524.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/509c25cf19.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/4a9f075e79.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/31a8d155f5.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/88d04b0501.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/8c90bd60aa.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/42b1e922b8.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/641fdc7cc0.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/1f3aa751de.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/fed56dccbb.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/ec9a39d7e8.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/1331a7bee8.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/2fa7125cb3.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/9af854951d.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/12cc0d6c30.jpg\" alt=\"\">}}\n</div>\n\n<img src=\"uploads/2023/2fa7125cb3.jpg\" alt=\"\"/>\n",
+				"content_text": "This article looks back over a circuit in the Berwyn Mountains, starting and ending in Llangynog, taking in Moel Sych and y Gribin on route.\n\n---\n\nWent out today for a walk with Mike, Emily, their dog Jess, and Nigel. The weather was pretty good all day, although it was quite hot at times. Enjoyed myself thoroughly all day, although if I am honest my legs were a little tired after my exertions the previous week in Scotland.\n\nAfter suffering a moment of temporary misplacement on route we arrived at Llangynog at about 10:30 and set off up the ridge of Y Gribin with great expectation. Ascending rapidly to the ridge we ambled along for a period of time over the tops of Craig Llywn-Armon, Pen Cerrig, Waen Bwlchymynydd and Hafod Hir before descending to the Militir Gerrig pass.\n\nWe paused for some time at the pass to each lunch before proceeding up the duckboard path to the point where I had joined it with Paul on our visit in [December](https://lee-perry.co.uk/2004/12/28/a-circuit-on.html). We proceeded to the Cairn on Moel Sych from where we took in the views to the surrounding Arenigs, Arans, Rhinogs, and Cadair Idris. The view over Cadair Berwyn was quite nice, unlike on my last visit.\n\nNot so concerned about the prospect of ice today, we proceeded down the steep path alongside Llyn Lluncaws, and to Pistyll Rhaeadr. The latter being complicated by our position on t'other side of the valley. Following the track along, it attains the Pistyll Rhaeadr Road about half a mile past the falls, which we walked back along in order to obtain a pot of tea!\n\nCrossing the bridge by the falls, we proceeded along the path above the valley, taking a short cut onto the old quarry road, and then up onto the bwlch below Y Clogydd and down to Llangynog. Before returning to the midlands we dined in the Tanat Valley Inn, enjoying fine cuisine.\n\n**Date:** 29 May 2005<br>\n**Weather:** Bright to sunny<br>\n**Accompanied by:** Mike, Emily, Jess and Nigel<br>\n**Distance:** c.18 miles<br>\n**Ascent:** c. 1200m<br>\n**Total Time:** 7hr30m<br>\n**Estimated 'Dead' Time:** 1hr<br>\n\n## Summits Attained:\n0827m Moel Sych<br>\n0545m Hafod Hir<br>\n0541m Waen Bwlchymynydd<br>\n0495m Pen Cerrig<br>\n0451m Craig Llwyn-Armon\n\n\n\n<div class=\"img-gallery\">\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/58902956be.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/8c909fc898.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/d9e16fab21.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/042a73394b.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/97ba296934.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/9117819faa.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/4c0d0ccf3c.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/9cb1c116c9.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/960a7acfd6.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/f27443d883.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/fd2e16fc5a.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/38fc83b5ab.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/82e3fb82fa.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/aad3763783.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/eca64855ce.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/af12b72524.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/509c25cf19.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/4a9f075e79.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/31a8d155f5.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/88d04b0501.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/8c90bd60aa.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/42b1e922b8.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/641fdc7cc0.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/1f3aa751de.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/fed56dccbb.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/ec9a39d7e8.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/1331a7bee8.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://cdn.uploads.micro.blog/97910/2023/2fa7125cb3.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/9af854951d.jpg\" alt=\"\">}}\n{{<glightbox src=\"https://lee-perry.co.uk/uploads/2023/12cc0d6c30.jpg\" alt=\"\">}}\n</div>\n\n<img src=\"https://cdn.uploads.micro.blog/97910/2023/2fa7125cb3.jpg\" alt=\"\"/>\n",
 				"date_published": "2005-05-29T16:18:37+01:00",
 				"url": "https://lee-perry.co.uk/2005/05/29/a-berwyn-circuit.html",
 				"tags": ["Mountains","Articles"]

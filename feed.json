@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://leeperry.micro.blog/2023/11/16/took-this-photo.html",
+				
+				"content_html": "<p>📷 Took this photo of autumnal colours, reflecting off the Leeds Liverpool Canal.  From my lunchtime walk today.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "📷 Took this photo of autumnal colours, reflecting off the Leeds Liverpool Canal.  From my lunchtime walk today.\n\n<a href=\"https://lee-perry.co.uk/uploads/2023/img-2534.jpeg\" target=\"_blank\"><img src=\"uploads/2023/img-2534.jpeg\" alt=\"Reflections on the Leeds Liverpool Canal, Burnley\" loading=\"lazy\"></a><br>\n",
+				"date_published": "2023-11-16T21:27:06+00:00",
+				"url": "https://lee-perry.co.uk/2023/11/16/took-this-photo.html",
+				"tags": ["Snips"]
+			},
+			{
 				"id": "http://leeperry.micro.blog/2023/11/16/if-you-click.html",
 				
 				"content_html": "<p>If you click on a datapoint in Tinylytics, it now filters direct to the selection.</p>\n<p>Have you been making magic <a href=\"https://micro.blog/vincent\">@vincent</a>, or did it always do this (methinks the former)?</p>\n<p>🧙</p>\n",

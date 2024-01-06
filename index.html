@@ -25,6 +25,222 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://lee-perry.co.uk/2024/01/06/bouldering-at-onyx.html" class="u-url"><time class="dt-published" datetime="2024-01-06 18:52:02 &#43;0000">Jan 6, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🧗‍♂️ Bouldering at <a href="https://www.onyxclimbing.co.uk">Onyx Climbing</a> in Blackburn tonight, had the wall to myself. Short video of me on a V2 on the overhang:</p>
+<ul>
+<li>V3 is about my limit at the moment</li>
+<li>Climbing with too much weight</li>
+<li>Using &lsquo;Strong&rsquo; Application to count climbs and fails at Vx</li>
+<li>Hands need more than 48h between climbs</li>
+</ul>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/05/mustang-invading-my.html" class="u-url"><time class="dt-published" datetime="2024-01-05 20:53:50 &#43;0000">Jan 5, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🐕 Mustang invading my timeline for the second time in a week.</p>
+<p>Here he is in a t-shirt to protect a really nasty wound that the emergency vet has just stapled up.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/05/the-northlight-mill.html" class="u-url"><time class="dt-published" datetime="2024-01-05 10:56:51 &#43;0000">Jan 5, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🏭 The Northlight mill renovation at Brierfield reflecting autumnal colours against the Leeds Liverpool Canal.</p>
+<p>Taken Sunday 31 December, 2023.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/04/checked-out-the.html" class="u-url"><time class="dt-published" datetime="2024-01-04 22:27:41 &#43;0000">Jan 4, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🧗‍♂️Checked out the new Onyx bouldering wall in Blackburn tonight.</p>
+<p>Ace wall, friendly team, I can get there and back on about 15% of a battery, in half the time, and the coffee was grand too.  Just a shame I had to close my eyes at the road signs on the drive in.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/03/km-m-w.html" class="u-url"><time class="dt-published" datetime="2024-01-03 20:52:11 &#43;0000">Jan 3, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🚴‍♂️16.3km | 195m | 182w | 161bpm | 363kcal - ROUVY - Around Tharwa | Australia</p>
+<p>Quick post ride work, first ride of the bizzarely named &lsquo;Piece of Piss&rsquo; challenge on Rouvy.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="https://maps.suunto.com/move/leeperry570/6595a1cdb76d8173d2304de4">Suunto activity data</a></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2024/01/03/website-theme-upgrade.html">Website theme upgrade - 1987 Theme</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/03/website-theme-upgrade.html" class="u-url"><time class="dt-published" datetime="2024-01-03 20:13:16 &#43;0000">Jan 3, 2024</time></a>
+
+		<div class="e-content">
+			 <p>My objective for this vacation was to build a theme from scratch for my website.  Within that there were a few functional objectives.</p>
+<ul>
+<li>I did not want to show the same intro text in the banner of each page, though I like it on the front page.</li>
+<li>I had a loose idea that I liked line per item archive pages, on a single page.</li>
+<li>I definitely wanted to have custom archive introductions, and had already come up with a way to produce that, but it used a partial template for each variant.</li>
+<li>I felt that a last modified date would be a useful thing to automate given that as well as writing content this year, I want to get better at gardening and maintaining existing content too.</li>
+</ul>
+<p>It took me about a day to design my concept in html and css.  A claret and blue themed page which I decided to call 1987.  Originally this had a single column page structure, and two column post structure - with post meta and discussion displayed to the right.  While I liked that design, I felt that it would be complicating the responsive design in production, and might create problems that I could not solve with my limited css skills - so I reverted to a single column post-design when I came to build it.</p>
+<p>Having designed the theme in html and css, I needed to work out how to theme it onto Hugo.  Attempting to do this in Micro.Blog would have caused a ridiculous number of rebuilds, and would have slowed the whole project down.  So I followed <a href="https://micro.blog/mandaris">@mandaris</a> series on how to set up a Hugo development server on a local machine for developing on, downloaded a copy of the blank theme for micro.blog from github, and put a little test content into my Hugo install to make sure it was running properly.</p>
+<p>Having created a few test posts, I thought it would make sense to bulk import much more content.  When I downloaded my archive from micro.blog I could see in the yaml frontmatter that micro.blog wast tracking the lastmod property - and suddenly became very excited that I would be able to find a way to pull the last modified date directly within the template.</p>
+<p>This first image shows the front page design.  The intro text is currently hard coded, though that can be pulled through directly from Micro.Blog.</p>
+<p>I have written a custom index.html file, negating the need for the custom front page plugin.  To the top of the page I have written a script pulling through the 5 most recent posts.  To the bottom is my digital garden, which I had to convert from the markdown into html.</p>
+<!-- raw HTML omitted -->
+<p>At the bottom of the page in the footer area I originally had 4 x footer blocks running horizontally, though I ran out of ideas about what to put in them.  So I consolidated that area into a single bock. I have added a category block so that the category archives are accessible from every page in the site, and below that are links to the indieWeb and Tinylytics webrings that my site is part of.</p>
+<!-- raw HTML omitted -->
+<p>I quite like the way that <a href="https://micro.blog/jsonbecker">@jsonbecker</a> presents the post archive in his theme, titled posts only, with a very clean archive listing.  I wanted to replace my archive page with something similar, so I have removed untitled posts from my archive page, presenting only titled articles on a line per item basis.  I have also added the categorisation to the end of each line.</p>
+<!-- raw HTML omitted -->
+<p>I did not want to just lose short form posts in their entirety though, and they serve a different purpose to articles in my site though.  So as you can see in the image below, they are presented in their own stream of snips, or microposts, along with a preview of any images in the post.  That is populated directly from the snips category, that I have set micro.blog up to filter all of my untitled posts into by default.</p>
+<!-- raw HTML omitted -->
+<p>The default micro.blog photos page drives me crazy.  There is nothing particularly wrong with it, I just hate galleries with whitespace caused by a mix of portrait and landscape orientation photos.  I have used the css cover and max-height properties to provide a more consistent grid.</p>
+<!-- raw HTML omitted -->
+<p>The Today page was a real challenge, I&rsquo;ll talk about this more on a subsequent &rsquo;lessons learned&rsquo; article.  However it took me probably a full day of exploring that code and implementation to understand why it was not working, and to refactor my code so that it would.</p>
+<!-- raw HTML omitted -->
+<p>While wanting to use the archive layout from above on my category archives, I did not want to lose the untitled posts from these pages.  On the archive page below on programming the microposts are listed, but still presented in a very truncated fashion.  Note also the custom category introduction in the hero banner for this page.</p>
+<p>There is a subtitles.html partial within my theme, which contains a series of if/else if/else statements, populating this area of the template based on the title of the page.  This has introduced a little weirdness where there is a page in my digital garden with the same name.  I can live with that for now, but will probably refactor soon to correct this.</p>
+<!-- raw HTML omitted -->
+<p>While that approach worked really well for the informational sections of my site, it did not feel so great for the more &lsquo;instagram&rsquo; sections.  I&rsquo;m probably the biggest reader of my site, and I wanted to be able to look at bayLee&rsquo;s section on my site, and scroll up from his posts as a puppy at the beginning, and see him grow up - without having to open each post to see what it contained.  So I have retained a more traditional archive page layout for these sections.  I have not had time to rewrite this layout, which is largely borrowed from Tiny Theme.</p>
+<p>There is a piece of conditional logic in the list template which depending on the title of the category will either load in a partial with the more minimalist archive layout, or a partial with post previews.  In general terms pages about my canine children and Vickie are laid out in preview form, and components of my digital garden largely deploy the more minimalist approach.</p>
+<!-- raw HTML omitted -->
+<p>Finally, the below post section on each post, and most pages, provides a visually clear way for the reader to say thanks for the time and effort that went into writing this, as well as information about when that page was last updated.  This felt particularly important for the more &rsquo;evergreen&rsquo; pages that collate and curate my digital garden.</p>
+<!-- raw HTML omitted -->
+<p>For the most part the development went really well, it probably took me a day to design the theme, and 3-4 days to revise and build the design onto Hugo.  I got a few things wrong along the way, and there are a few things that I would do differently next time.  I&rsquo;ll write a follow up article about the lessons learned.  If there is sufficient interest I may do a screencast on setting Hugo up ready for theming, which was definitely my biggest bar to getting going with this project.  I&rsquo;m pretty pleased with the outcome, I&rsquo;ve made a few revisions since the theme went live, and I&rsquo;ve a couple of minor tweaks left to do before I merge the amendments made live back into my github repo and local build.</p>
+<p>I hope that you found the article interesting or useful.  If you did, please just click on the kudos button below to say thanks, or feel free to comment through micro.blog, mastodon or email using the links below..</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/02/mustang-does-not.html" class="u-url"><time class="dt-published" datetime="2024-01-02 22:18:22 &#43;0000">Jan 2, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Mustang does not make it into my site very often, as he’s usually busy just being old and sleeping these days.</p>
+<p>Here is yesterday, posing in front of Burnley bus depot in Disraeli Park.</p>
+<p>🐕📷</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/02/km-m-w.html" class="u-url"><time class="dt-published" datetime="2024-01-02 21:54:39 &#43;0000">Jan 2, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🚴‍♂️ 5.7km | 60m | 192w | 152bpm | Rouvy - La Vuelta 2023 | Stage 21 - Final Loop</p>
+<p>Quick cleat positioning test after switching Wattbike to clipless setup.</p>
+<p><a href="https://maps.suunto.com/move/leeperry570/659481f185f6de67e269420c">Suunto activity data</a></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/02/i-wrote-last.html" class="u-url"><time class="dt-published" datetime="2024-01-02 14:30:32 &#43;0000">Jan 2, 2024</time></a>
+
+		<div class="e-content">
+			 <p>💭 I wrote last night in my <a href="https://lee-perry.co.uk/2024/01/01/my-in-review.html">2023 Review</a> about excluding more social media noise to maintain focus on my actual goals. Since then I&rsquo;ve:</p>
+<ul>
+<li>Deactivated Instagram &amp; Threads</li>
+<li>Blocked LinkedIn so that I can only use it on work hardware</li>
+<li>Blocked Facebook so that I can use it only sparsely on my Chromebook
+⏭️</li>
+</ul>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2024/01/01/my-in-review.html">My 2023 in Review 💭</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2024/01/01/my-in-review.html" class="u-url"><time class="dt-published" datetime="2024-01-01 22:33:08 &#43;0000">Jan 1, 2024</time></a>
+
+		<div class="e-content">
+			 <p>As we move in to 2024 I wanted to take the opportunity to reflect on 2023, to identify what went well, what did not, and to set some foundations for the year ahead.</p>
+<h2 id="planning">Planning</h2>
+<p>Having set SMART objectives at the beginning of the year would have made it really easy to reflect on the year that has passed.  Having not done so makes it really hard to objectively measure performnce&hellip; so I will set some specific objectives where I can for 2024.</p>
+<h2 id="work">Work</h2>
+<p>Work was an unmitigated disaster.</p>
+<p>In January 2023 I left a role that I had been very successful in across a number of years, to work for another consultancy.  All that I can say on this topic is that the role did not have the seniority and profile or autonomy that I expected and thrive under.</p>
+<p>I left at the end of the year to take up a position as Head of Technical Services at another consultancy that I have a lot of respect for and trust in.  So 2023 was 💩, but the year ahead is an exciting one professionally.</p>
+<h2 id="fitness">Fitness</h2>
+<p>I entered 2023 weighing 81.77kg, and exited at 84kg.  That does not tell the full story though, peaking at 86kg in June, my weight has been gradually falling from there into the end of the year.</p>
+<p>I spent 170h training in 2023.  From a promising position at the end of the summer, COVID and a deteriorating work-life combined to make for a pretty miserly end to 2023 - just 19 hours of activity in the last three months of the year.</p>
+<p>Of those 19 hours, 4 were at one of my target races for the year - the Manchester Half Marathon, which I walked.  It really illustrates just how badly the end of the year went.</p>
+<p>I have always used my fitness metrics as an indicator of the strength of my work life balance, and mental wellbeing - the peaks and troughs in that data show how consuming the year was at times.</p>
+<h2 id="software-development">Software Development</h2>
+<p>In January 2023 I completed a software engineering course with HyperionDev.</p>
+<p>I didn&rsquo;t set any objectives around this, but I&rsquo;d have expected to kick on and learn more in 2023.  There were probably some really obvious starting points as well, that course being threadbare on Flask and Django in particular.</p>
+<p>I have learned a little through the year.  Moving and consolidating all of my websites into a single site on Micro.Blog has meant that I have had to learn quite a bit about the Hugo static site generator on which it sits.  That has culminated in me designing almost all of my own theme from scratch, which starts to think innovatively about how to make Micro.Blog do things that would have been much easier if the YAML frontmatter were exposed.</p>
+<p>This is not completely new.  I have built much more complex sites / data structures in Jekyll on Github Pages in the past.  I think this is the most comprehensive theme that I have ever written though, without using third party components like bootstrap.</p>
+<h2 id="social-media">Social Media</h2>
+<p>At the end of 2022 I spent quite a lot of time looking for places to write with communities around them.  I stumbled across micro.blog, I also spent quite a bit of time looking at write.as, I looked at Ghost, and probably a few others too.</p>
+<p>I found micro.blog intriguing, and though the web presence has been much improved over the last year, I really couldn&rsquo;t work out why everybody on Micro.Blog had built Hugo Websites.  Once I realised that I could both write to an audience, and to do that through my own websites, I was pretty sold.</p>
+<p>I wrote about this more <a href="https://lee-perry.co.uk/2023/01/31/taking-ownership-of.html">at the time</a>, but have used micro.blog and its activitypub capability to eliminate more nefarious social media sources from my life.</p>
+<p>That process is not complete though.</p>
+<ul>
+<li>
+<p>I still have Facebook, Instagram and Threads accounts.  I need the former mainly for the various virtual cycling groups I am in that organise themselves there.  Maybe after the Zwift Racing League is finished for the year I will be able to do something about that.  I do not need either the instagram or threads accounts.</p>
+</li>
+<li>
+<p>I also still have a LinkedIn account.  I probably need to retain that for professional purposes, but need to be much more effective in my usage, avoiding doomscrolling there.</p>
+</li>
+</ul>
+<h2 id="conclusions">Conclusions</h2>
+<p>2023 was a really tough year, physically, but mentally as well.  I&rsquo;ve probably been to darker places in the last year than I ever have before, so it is cathartic to look back over on the year now.  I think that I&rsquo;m much better placed, and positioned in a much better place, for the year ahead.  So turning to the year ahead:</p>
+<h2 id="objectives-for-2024">Objectives for 2024</h2>
+<p><strong>Fitness</strong> 260 training hours (5 per week) <strong>excluding</strong> walking<!-- raw HTML omitted -->
+<strong>Running</strong> Sub 1:45 Half Marathon at Great North Run<!-- raw HTML omitted -->
+<strong>Running</strong> Sub 23min Parkrun / 5km<!-- raw HTML omitted -->
+<strong>Weight</strong> Sub 78kg at year end<!-- raw HTML omitted -->
+<strong>Financial</strong> Reduce net debt<!-- raw HTML omitted -->
+<strong>Software</strong> Develop a specific niche wee application that I&rsquo;ve had in mind for a while - which means that I need to learn the technology to deliver it<!-- raw HTML omitted -->
+<strong>Interweb</strong> Hibernate Facebook/Instagram/Threads accounts, consolidate fitness data into the Suunto app as the primary source.<!-- raw HTML omitted -->
+<strong>Digital Garden</strong> Complete upload of missing mountain photographs from 2004-9<!-- raw HTML omitted -->
+<strong>Home</strong> Be kind<!-- raw HTML omitted --></p>
+<p>Happy new year, see you on the other side!</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://lee-perry.co.uk/2024/01/01/km-km-kcal.html" class="u-url"><time class="dt-published" datetime="2024-01-01 10:39:25 &#43;0000">Jan 1, 2024</time></a>
 
 		<div class="e-content">

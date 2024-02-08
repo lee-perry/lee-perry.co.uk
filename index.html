@@ -24,6 +24,154 @@
 	
 	  <div class="h-entry">
 		
+
+		<a href="https://lee-perry.co.uk/2024/02/08/km-m-w.html" class="u-url"><time class="dt-published" datetime="2024-02-08 21:59:39 &#43;0000">Feb 8, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🚴‍♂️ 5.50km 227m 152w bpm 0:30:06</p>
+<p>30min Endurance workout on indieVelo, first ride in a fortnight with big back injury, first indieVelo ride since November, first view of the new island.</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/02/04/fofana-on-bright.html" class="u-url"><time class="dt-published" datetime="2024-02-04 16:23:30 &#43;0000">Feb 4, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🔗 <!-- raw HTML omitted -->FOFANA ON BRIGHT HOME DEBUT | BurnleyFC<!-- raw HTML omitted --></p>
+<blockquote>
+<p>Before I came on, the manager said to me the same thing, focus David - we need you, we want you to help the team. Why not also score. I said I will score, I will score because I was like focus on that, to help the team.</p>
+</blockquote>
+<p>This quote from David Fofana last night made me giggle, a lot.</p>
+<p>Mainly though testing out <a href="https://micro.blog/jarrod">@jarrod</a>’s publish quote to micro.blog shortcut on macOS.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2024/02/04/lessons-learned-designing.html">👨🏼‍💻 Lessons learned designing my own Mico.Blog / Hugo Theme</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2024/02/04/lessons-learned-designing.html" class="u-url"><time class="dt-published" datetime="2024-02-04 12:39:19 &#43;0000">Feb 4, 2024</time></a>
+
+		<div class="e-content">
+			 <p>What I would approach differently next time I build a Hugo theme from scratch for Micro.Blog, and future work on my 1987 theme.</p>
+<!-- raw HTML omitted -->
+<p>For the first year of my existence on micro.blog, I customised existing themes to do what I wanted.  First the Paper and Anatole themes, then Outpost, before settling on Tiny.  Tiny theme is great, but despite all of the customisation, it became super popular quickly, and I felt that my site looked like every other site on Micro.Blog.  So I decided to build my own &lsquo;1987&rsquo; theme from ground up which <a href="https://lee-perry.co.uk/2024/01/03/website-theme-upgrade.html">I wrote about at the beginning of the year</a>.</p>
+<p>I&rsquo;d been meaning since then to write a summary of the things I&rsquo;d do differently, as well as further improvements I&rsquo;d still like to make.  So here goes.</p>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<h3 id="design">Design</h3>
+<p>Before building my theme, I started off by building a html/css only wireframe.  Understanding how Hugo themes are structured now, that is not really necessary.  In future I would skip this step and just create the design direct in the local Hugo build, which will save time.</p>
+<h3 id="development">Development</h3>
+<p>I started off my build by grabbing a copy of the blank theme repo for micro.blog from GitHub.  The blank theme does not contain all of the files that a basic micro.blog theme uses though, which means that I cannot replicate that functionality in my local build.  In future I would grab the missing files, as well as replacing the partials for custom headers and footers - so as not to have to remove those things from my design to work on the theme locally.</p>
+<h3 id="variables">Variables</h3>
+<p>This point follows on from the previous.  In my next build I would replicate micro.blog variables within the config.json file, so that I could create and use them locally without overwriting the variables in my html.  An example would be the subtitle and image that appears in the hero banner on the front page.  These are hard coded, but if I wanted to design a theme for distribution would need to be dynamically populated.  There is lots being dynamically populated in the theme, this comment is really about information that is held inside the micro.blog account profile.</p>
+<h3 id="microformats">Microformats</h3>
+<p>I knew very little about MicroFormats when I started my design, and I do not know a huge amount more now.  What I do know though is that the absence of microformat classes within my html stopped the <a href="https://lee-perry.co.uk/time-machine/">&lsquo;on this day&rsquo;</a> functionality from working at all.  I wasted a day winding micro formats back into my design.</p>
+<p>Luckily I did not write the conversation script, I think I borrowed this direct from Tiny - if I had, I might well have broken webmentions functionality in the site too.</p>
+<h3 id="category--page-titles">Category / Page Titles</h3>
+<p>As category archives are dynamically produced I wrote a script that will inject a subtitle based upon the title of the page.  It&rsquo;s a small thing, but because some pages and categories have the same title, they have the same subtitle too.  I could probably eliminate this by filtering more accurately, though that would need better understanding of Go than I have - I&rsquo;m not sure that I really need to learn that.  It&rsquo;s all <a href="https://micro.blog/ericgregorich">@ericgregorich</a> fault, I have a big PowerApps project in mind and need to spend my time learning that environment.</p>
+<h3 id="deployment">Deployment</h3>
+<p>Deployment worked relatively well, I synchronised my repo from Github, and then added in the Micro.Blog features that were not enabled on my local build because of the points above.  I did not know that if you install the theme as a plugin, you can auto-update it from Github.  In future I would/will do this to simplify and minimise updates on a production site.</p>
+<h2 id="future-work">Future Work</h2>
+<ol>
+<li>To replace any statically populated content, reinstating the micro.blog / Go variables, and simulating the content of those variables in config.json in my local build.</li>
+<li>Reinstall the custom theme as a plugin in micro.blog so that I can develop locally, and push updates to (and pull them from) Github.</li>
+<li>I still need to update some of the archive page designs, I borrowed a little from Tiny as I had run out of time.</li>
+<li>I&rsquo;m not sure how much of my audience uses webmentions, reply through micro.blog/mastodon or by email.  I&rsquo;d like to investigate a lightweight comment system.  Before looking into further I&rsquo;m just waiting to see if the big forthcoming update from <a href="https://micro.blog/manton">@manton</a> negates the need for this.</li>
+<li>I&rsquo;d definitely like to introduce some form of pagination and/or taxonomy to the photos archive, that page is pretty big and long, and is a key feature (for me at least) of my site.</li>
+<li>I might add reading time back into the site - at least for article length posts.</li>
+<li>I&rsquo;d also still like to explore customising the xml files to control how content is presented to micro.blog, and the wider fediverse from there.</li>
+</ol>
+<p>Other than the above though, I&rsquo;m pretty settled on my design for the first time.  I&rsquo;ve not felt the urge to constantly tinker with it over the last month.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://lee-perry.co.uk/2024/02/03/burnley-fulham.html">⚽️ Burnley 2 Fulham 2</a></h1>
+		
+
+		<a href="https://lee-perry.co.uk/2024/02/03/burnley-fulham.html" class="u-url"><time class="dt-published" datetime="2024-02-03 20:07:06 &#43;0000">Feb 3, 2024</time></a>
+
+		<div class="e-content">
+			 <p>When we travelled to Fulham before Christmas, it was Burnley that emerged from a tight game with all three points.  So we went in to the return fixture 6 weeks later hoping to get something out of the game.  Expecting it, would be really pushing it this season!</p>
+<p>That seemed well founded for the first 15 minutes of the game as we moved the ball around quite well, failing to take advantage of a couple of promising positions.</p>
+<p>When Fulham took the lead in the 17th minute, that was probably against the run of play.  Joao Palhinha rising to meet a poorly defended corner, his flick deflect in off Sander Berge.  Our set pieces are appalling - cannot defend them, cannot take advantage of them.  The weakness of both is more frustrating every week.</p>
+<p>The second goal was a sucker, just 4 minutes later, Muniz beating the offside trap, lobbing James Trafford in no mans land.  Trafford seemed to get a hand to the ball, just not enough to keep it out.</p>
+<p>I&rsquo;ve been struggling from a lower back / hip problem for a couple of weeks now, so much so that I drove into Burnley town centre to park nearer to the Turf, I was in agony, and we&rsquo;d just capitulated again.  It all felt pretty barren.  To improve my mood further the next 40-45 minutes were awful, a couple of saves from Trafford keeping Burnley in the game.  No urgency, no passion, no fight.  Not hugely under pressure either, just passive, and far too lightweight in the moves up front.  Very similar to the Crystal Palace game - it looked like we could play for the next week and not create anything.</p>
+<p>For once the substitutions and tactical changes made by Kompany did not make things worse.  Maxime Esteve replaced Hjalmar Ekdal at half time, giving the defence some of the height and physicality it misses at times.  He had a good debut, as did Lorenz Assignon at right back.  Assignon looked assured in defence making some key challenges early on, but critically he seems to have the delivery that this team so badly misses.  In the 71st minute he floated a succulent cross over to David Fofana, who wasted no time putting it beyond Bernd Leno.  Fofana would complete the comeback in the 91st minute, bundling over a cross from Odobert.</p>
+<p>If I have a frustration, it is that we do not seem to implement what we learn in subsequent fixtures.  Ramsay on the wing does not work at this level - he looks far more effective in the position Amdouni plays, Johann Berg Gudmundsson replacing him brought far more stability to the centre of the pitch.  Amdouni neither holds the ball up, creates, or scores enough.  Fofana added strength and power up front on Wednesday night, and he did here too - he should have been in from the start.  We&rsquo;ve missed that presence in the box since the unnecessary departure of super Ashley Barnes.</p>
+<p>Positives though - all of the January signings look like they will really improve the team.  Assignon looks a great acquisition at right back, though the weakness at left back will remain until at least the return of Taylor.  Fofana and Esteve both adding power, strength and presence in defence and attack - Fofana feels like a young Lukaku in many ways.  Our January business looks much more effective than the summer window, though sadly we do not own any of them!</p>
+<p>Probably a fair result in the end.  It was a game that we really needed to win if we want to stay up, but I think that boat sailed a little while ago.  We need to finish the season in the right frame of mind to attack the next one from the beginning.  If doing so puts us in with a chance of staying up, then great, but unlikely.  I think Crystal Palace, Brentford and Nottingham Forest can all be caught, but only if we actually put points on the board.</p>
+<p>Also really impressed with Luton Town&rsquo;s 4 -4 draw away to Newcastle United.  They are showing exactly the fight grit and determination that I want to see from Burnley - for me they will stay up on current form, and deserve to.  Maybe we need to reflect on whether being a &lsquo;very calm club&rsquo; is the right mentality for digging ourselves out of the predicament that we find ourselves in.  Congratulations also to Anass Zaroury who&rsquo;s assist in his debut on loan at Hull City helped to propel the Tigers into the play-off spots.  Felt absolutely sick seeing him holding a Hull shirt yesterday, that one hurts.</p>
+<p>Liverpool away next on Saturday 10th - sadly I have not been able to get a ticket for that game (which prompted my <a href="https://lee-perry.co.uk/2024/01/20/premier-league-ticket.html">ranty article about premier league away ticket allocations</a>.  Unless that changes, I&rsquo;ll be listening in from my armchair.</p>
+<p>Until next time, up the clarets!</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/02/03/i-have-a.html" class="u-url"><time class="dt-published" datetime="2024-02-03 08:30:37 &#43;0000">Feb 3, 2024</time></a>
+
+		<div class="e-content">
+			 <p>💭 I have a had a back/hip injury for over a week, in trying to find a way to minimise my walk to Turf Moor this afternoon noticed that Google have finally extended their 3D mapping to Burnley. Sadly Apple Maps have not, their 3D mapping is clearer with better functionality in my opinion.</p>
+<p>#burnley</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/02/02/i-was-told.html" class="u-url"><time class="dt-published" datetime="2024-02-02 07:10:18 &#43;0000">Feb 2, 2024</time></a>
+
+		<div class="e-content">
+			 <blockquote>
+<p>&ldquo;I was told about this coming into the division, that &lsquo;get ready, all the slight decisions, all the easy decisions, will go against you&rsquo;.</p>
+</blockquote>
+<p>Agree with this from Chris Wilder.  It’s not just the big decisions that go against you, it’s that it sometimes feels like you are not actually allowed to even challenge for the ball in the Premier League.</p>
+<p><a href="https://www.bbc.co.uk/sport/football/68172818">BBC</a></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/02/01/so-disappointed-to.html" class="u-url"><time class="dt-published" datetime="2024-02-01 23:29:40 &#43;0000">Feb 1, 2024</time></a>
+
+		<div class="e-content">
+			 <p>⚽️ so disappointed to see Zaroury leave. He improved on Odobert last night.  At least he got that <a href="https://lee-perry.co.uk/2024/01/31/manchester-city-burnley.html">rendition at the Etihad</a>. Roberts also much better than a dreaful Vitinho, also away.</p>
+<p>Little point looking for logic.</p>
+<p>#burnleyfc #utc</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://lee-perry.co.uk/2024/02/01/todays-newold-post.html" class="u-url"><time class="dt-published" datetime="2024-02-01 21:03:52 &#43;0000">Feb 1, 2024</time></a>
+
+		<div class="e-content">
+			 <p>🏔️Todays new-old post is a <a href="https://lee-perry.co.uk/2009/08/07/foel-goch-arenig.html">walk up Foel Goch</a> in the Arenig range back in August 2009 with Richard Cooksey and Marvin.</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 			<h1><a href="https://lee-perry.co.uk/2024/01/31/manchester-city-burnley.html">⚽️ Manchester City 3 Burnley 1</a></h1>
 		
 
@@ -71,7 +219,7 @@
 		<a href="https://lee-perry.co.uk/2024/01/31/making-our-way.html" class="u-url"><time class="dt-published" datetime="2024-01-31 17:07:49 &#43;0000">Jan 31, 2024</time></a>
 
 		<div class="e-content">
-			 <p>🚐⚽️ Making our way through a dreich Burnley for an evening of fitba at the Ettihad.</p>
+			 <p>🚐 Making our way through a dreich Burnley for an evening of fitba at the Ettihad.</p>
 <p>#utc #butnleyfc #clarets</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
@@ -122,7 +270,7 @@ print(f&#34;Items counted: {count}&#34;)
 		<div class="e-content">
 			 <p>🏃‍♂️I&rsquo;ll be racing at the Great North Run in September.</p>
 <p>Disappointed at not getting through the ballot in 2023, buying a <a href="https://www.greatrun.org/great-north-run-membership/">race membership</a> guarantees entry for each of the following three years.</p>
-<p><img src="https://lee-perry.co.uk/uploads/2024/screenshot-2024-01-29-at-21.17.06.png" alt="Great North Run entry confirmation 2024"></p>
+<p><img src="https://cdn.uploads.micro.blog/97910/2024/screenshot-2024-01-29-at-21.17.06.png" alt="Great North Run entry confirmation 2024"></p>
 
 		</div>
 	  </div>
@@ -327,7 +475,7 @@ R.9.2. if the capacity of the Home Club’s Stadium is less than 30,000, such nu
 		<a href="https://lee-perry.co.uk/2024/01/16/135205.html" class="u-url"><time class="dt-published" datetime="2024-01-16 13:52:05 &#43;0000">Jan 16, 2024</time></a>
 
 		<div class="e-content">
-			 <p>🚉🗺️📷 Headed into Manchester on Sunday for a fire safety world catch-up with Anthony and Craig.</p>
+			 <p>🚉 Headed into Manchester on Sunday for a fire safety world catch-up with Anthony and Craig.</p>
 <p>This amazing view down to the tracks and river below opened up, as I approached Manchester Victoria station.</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
@@ -545,7 +693,7 @@ R.9.2. if the capacity of the Home Club’s Stadium is less than 30,000, such nu
 	
 	  <div class="h-entry">
 		
-			<h1><a href="https://lee-perry.co.uk/2024/01/03/website-theme-upgrade.html">Website theme upgrade - 1987 Theme</a></h1>
+			<h1><a href="https://lee-perry.co.uk/2024/01/03/website-theme-upgrade.html">👨🏼‍💻 Website theme upgrade - 1987 Theme</a></h1>
 		
 
 		<a href="https://lee-perry.co.uk/2024/01/03/website-theme-upgrade.html" class="u-url"><time class="dt-published" datetime="2024-01-03 20:13:16 &#43;0000">Jan 3, 2024</time></a>
@@ -594,9 +742,8 @@ R.9.2. if the capacity of the Home Club’s Stadium is less than 30,000, such nu
 		<a href="https://lee-perry.co.uk/2024/01/02/mustang-does-not.html" class="u-url"><time class="dt-published" datetime="2024-01-02 22:18:22 &#43;0000">Jan 2, 2024</time></a>
 
 		<div class="e-content">
-			 <p>Mustang does not make it into my site very often, as he’s usually busy just being old and sleeping these days.</p>
+			 <p>🐕 Mustang does not make it into my site very often, as he’s usually busy just being old and sleeping these days.</p>
 <p>Here is yesterday, posing in front of Burnley bus depot in Disraeli Park.</p>
-<p>🐕📷</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
 		</div>
@@ -635,7 +782,7 @@ R.9.2. if the capacity of the Home Club’s Stadium is less than 30,000, such nu
 	
 	  <div class="h-entry">
 		
-			<h1><a href="https://lee-perry.co.uk/2024/01/01/my-in-review.html">My 2023 in Review 💭</a></h1>
+			<h1><a href="https://lee-perry.co.uk/2024/01/01/my-in-review.html">💭 My 2023 in Review </a></h1>
 		
 
 		<a href="https://lee-perry.co.uk/2024/01/01/my-in-review.html" class="u-url"><time class="dt-published" datetime="2024-01-01 22:33:08 &#43;0000">Jan 1, 2024</time></a>
@@ -704,7 +851,7 @@ R.9.2. if the capacity of the Home Club’s Stadium is less than 30,000, such nu
 	
 	  <div class="h-entry">
 		
-			<h1><a href="https://lee-perry.co.uk/2023/12/31/match-report-aston.html">Match Report: Aston Villa 3 Burnley 2 ⚽️</a></h1>
+			<h1><a href="https://lee-perry.co.uk/2023/12/31/match-report-aston.html">⚽️ Match Report: Aston Villa 3 Burnley 2</a></h1>
 		
 
 		<a href="https://lee-perry.co.uk/2023/12/31/match-report-aston.html" class="u-url"><time class="dt-published" datetime="2023-12-31 21:30:44 &#43;0000">Dec 31, 2023</time></a>
@@ -731,7 +878,7 @@ R.9.2. if the capacity of the Home Club’s Stadium is less than 30,000, such nu
 	
 	  <div class="h-entry">
 		
-			<h1><a href="https://lee-perry.co.uk/2023/12/30/villa-park.html">Villa Park</a></h1>
+			<h1><a href="https://lee-perry.co.uk/2023/12/30/villa-park.html">🏟️ Villa Park</a></h1>
 		
 
 		<a href="https://lee-perry.co.uk/2023/12/30/villa-park.html" class="u-url"><time class="dt-published" datetime="2023-12-30 18:50:32 &#43;0000">Dec 30, 2023</time></a>
@@ -775,7 +922,7 @@ R.9.2. if the capacity of the Home Club’s Stadium is less than 30,000, such nu
 		<a href="https://lee-perry.co.uk/2023/12/29/uploading-my-new.html" class="u-url"><time class="dt-published" datetime="2023-12-29 14:04:26 &#43;0000">Dec 29, 2023</time></a>
 
 		<div class="e-content">
-			 <p>Uploading my new theme later for testing🤞
+			 <p>👨🏼‍💻 Uploading my new theme later for testing🤞
 <!-- raw HTML omitted -->
 Home - Latest + Digital garden<!-- raw HTML omitted -->
 Category - List/full views<!-- raw HTML omitted -->
@@ -822,7 +969,7 @@ Borrows tinyly from <a href="https://micro.blog/Mtt">@Mtt</a> Tiny as nearing �
 		<a href="https://lee-perry.co.uk/2023/12/27/mr-baylee-is.html" class="u-url"><time class="dt-published" datetime="2023-12-27 08:49:59 &#43;0000">Dec 27, 2023</time></a>
 
 		<div class="e-content">
-			 <p>🐕📷 Mr bayLee is not feeling very well today, so he is going to see the vet this afternoon with a sore neck.</p>
+			 <p>🐕 Mr bayLee is not feeling very well today, so he is going to see the vet this afternoon with a sore neck.</p>
 <p>Here he is under his blanket with his mini-me Fearghus, who has recovered well from his own ✂️procedure two weeks ago.</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
@@ -831,7 +978,7 @@ Borrows tinyly from <a href="https://micro.blog/Mtt">@Mtt</a> Tiny as nearing �
 	
 	  <div class="h-entry">
 		
-			<h1><a href="https://lee-perry.co.uk/2023/12/26/match-report-burnley.html">⚽️📷 Match Report: Burnley 0 Liverpool 2</a></h1>
+			<h1><a href="https://lee-perry.co.uk/2023/12/26/match-report-burnley.html">⚽️ Match Report: Burnley 0 Liverpool 2</a></h1>
 		
 
 		<a href="https://lee-perry.co.uk/2023/12/26/match-report-burnley.html" class="u-url"><time class="dt-published" datetime="2023-12-26 22:11:05 &#43;0000">Dec 26, 2023</time></a>
@@ -881,7 +1028,7 @@ Borrows tinyly from <a href="https://micro.blog/Mtt">@Mtt</a> Tiny as nearing �
 		<a href="https://lee-perry.co.uk/2023/12/26/there-is-a.html" class="u-url"><time class="dt-published" datetime="2023-12-26 09:07:05 &#43;0000">Dec 26, 2023</time></a>
 
 		<div class="e-content">
-			 <p>There is a new <a href="/bouldering-walls">bouldering wall</a> that opened in the dark place beyond Oswaldthwistle that we do not speak of.  I want to try it out this week, but need to avoid looking at any road signs on the drive in.</p>
+			 <p>🧗‍♂️ There is a new <a href="/bouldering-walls">bouldering wall</a> that opened in the dark place beyond Oswaldthwistle that we do not speak of.  I want to try it out this week, but need to avoid looking at any road signs on the drive in.</p>
 <p><a href="https://www.onyxclimbing.co.uk">Onyx Climbing Wall</a></p>
 
 		</div>
@@ -905,7 +1052,7 @@ Borrows tinyly from <a href="https://micro.blog/Mtt">@Mtt</a> Tiny as nearing �
 		<a href="https://lee-perry.co.uk/2023/12/25/in-working-on.html" class="u-url"><time class="dt-published" datetime="2023-12-25 07:38:24 &#43;0000">Dec 25, 2023</time></a>
 
 		<div class="e-content">
-			 <p>In working on the new theme my site, remembering that my frontend design skills are not that strong.</p>
+			 <p>👨🏼‍💻 In working on the new theme my site, remembering that my frontend design skills are not that strong.</p>
 <p>Merry Flexbox.</p>
 
 		</div>
@@ -913,18 +1060,7 @@ Borrows tinyly from <a href="https://micro.blog/Mtt">@Mtt</a> Tiny as nearing �
 	
 	  <div class="h-entry">
 		
-
-		<a href="https://lee-perry.co.uk/2023/12/24/does-anybody-know.html" class="u-url"><time class="dt-published" datetime="2023-12-24 11:32:39 &#43;0000">Dec 24, 2023</time></a>
-
-		<div class="e-content">
-			 <p>Does anybody know if micro.blog surfaces last updated data in the yaml, and how to access it?</p>
-
-		</div>
-	  </div>
-	
-	  <div class="h-entry">
-		
-			<h1><a href="https://lee-perry.co.uk/2023/12/23/match-report-fulham.html">⚽️🏟️📷 Match Report - Fulham 0 Burnley 2</a></h1>
+			<h1><a href="https://lee-perry.co.uk/2023/12/23/match-report-fulham.html">⚽️🏟️ Match Report - Fulham 0 Burnley 2</a></h1>
 		
 
 		<a href="https://lee-perry.co.uk/2023/12/23/match-report-fulham.html" class="u-url"><time class="dt-published" datetime="2023-12-23 19:17:11 &#43;0000">Dec 23, 2023</time></a>
